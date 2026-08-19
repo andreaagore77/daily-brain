@@ -25,6 +25,18 @@ It is also the text used as the Routine prompt.
      headquartered there — `home_base` alone isn't enough), web-search
      `<service area> <focus area> nonprofit grant 2026 apply` and check
      that state/region's official economic/community development site.
+     Also check the county-level entries' own sites (county human
+     services, health, and youth-services departments often post grants
+     that never reach statewide portals).
+
+     The county entries are the org's priority footprint, but it is
+     eligible **statewide** — so a New Jersey grant open to any NJ
+     nonprofit qualifies and should be reported. Rank results with
+     county-specific opportunities first, then statewide, and note in
+     each entry's `summary` which footprint it falls under. Grants open
+     to counties adjacent to the priority ones (e.g. Morris, Hudson,
+     Middlesex, Passaic) also qualify — the org serves surrounding
+     areas — but rank them below the named counties.
    - **Private foundation/corporate**: web-search
      `<focus area> foundation grant <org_type> 2026 application deadline`,
      and check whether each foundation's eligibility covers `home_base` or

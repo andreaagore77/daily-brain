@@ -14,7 +14,11 @@
     "city": "Green Brook"
   },
   "service_areas": [
-    "New Jersey"
+    "Essex County, New Jersey",
+    "Bergen County, New Jersey",
+    "Union County, New Jersey",
+    "Somerset County, New Jersey",
+    "New Jersey (statewide)"
   ],
   "annual_budget_usd": 300000,
   "grant_types": [
