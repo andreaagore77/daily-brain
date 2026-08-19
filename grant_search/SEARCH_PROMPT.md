@@ -16,10 +16,19 @@ It is also the text used as the Routine prompt.
 3. Search for currently open grant opportunities matching the profile's
    `focus_areas`, `home_base`, `service_areas`, `org_type`, and
    `grant_types`:
-   - **Government/federal**: query the Grants.gov Search2 public API
-     (`https://api.grants.gov/v1/api/search2`, POST, no key required) with
-     keywords derived from `focus_areas`, and/or web-search
-     `site:grants.gov <focus area> <org_type> grants 2026`.
+   - **Government/federal**: web-search
+     `site:grants.gov <focus area> <org_type> grants 2026`, plus the
+     SAMHSA grants dashboard and BJA/OJP funding pages by name.
+
+     > **Known environment limit (confirmed 2026-08-19):** this sandbox's
+     > egress proxy refuses `api.grants.gov` (403 on CONNECT) and blocks
+     > `WebFetch` against samhsa.gov, njnonprofits.org, cfnj.org,
+     > hfnj.org, and simpler.grants.gov. `WebSearch` is the only working
+     > channel. Do not burn a run retrying the API. Because nothing can
+     > be verified at source, mark every entry
+     > `"confidence": "unverified_search_snippet"` and carry a
+     > `verify_before_acting` note. If `WebFetch` ever starts working,
+     > verify each entry and upgrade its confidence.
    - **State/regional**: for each entry in `service_areas` (state/regional
      grants generally require operating in-state, not just being
      headquartered there — `home_base` alone isn't enough), web-search
