@@ -13,16 +13,22 @@ It is also the text used as the Routine prompt.
    (dedupe key: `url`, falling back to `title + funder`).
 
 3. Search for currently open grant opportunities matching the profile's
-   `focus_areas`, `location`, `org_type`, and `grant_types`:
+   `focus_areas`, `home_base`, `service_areas`, `org_type`, and
+   `grant_types`:
    - **Government/federal**: query the Grants.gov Search2 public API
      (`https://api.grants.gov/v1/api/search2`, POST, no key required) with
      keywords derived from `focus_areas`, and/or web-search
      `site:grants.gov <focus area> <org_type> grants 2026`.
-   - **State/regional**: web-search
-     `<state_or_region> <focus area> nonprofit grant 2026 apply` and check
-     the state's official economic/community development site.
+   - **State/regional**: for each entry in `service_areas` (state/regional
+     grants generally require operating in-state, not just being
+     headquartered there — `home_base` alone isn't enough), web-search
+     `<service area> <focus area> nonprofit grant 2026 apply` and check
+     that state/region's official economic/community development site.
    - **Private foundation/corporate**: web-search
-     `<focus area> foundation grant <org_type> 2026 application deadline`.
+     `<focus area> foundation grant <org_type> 2026 application deadline`,
+     and check whether each foundation's eligibility covers `home_base` or
+     `service_areas` (many foundations restrict funding to specific
+     geographies).
    Skip any grant type not listed in the profile's `grant_types`.
 
 4. For each candidate, discard it if:

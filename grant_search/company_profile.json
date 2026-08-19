@@ -7,11 +7,14 @@
     "REPLACE_WITH_FOCUS_AREA_1",
     "REPLACE_WITH_FOCUS_AREA_2"
   ],
-  "location": {
+  "home_base": {
     "country": "US",
     "state_or_region": "REPLACE_WITH_STATE",
     "city": "REPLACE_WITH_CITY"
   },
+  "service_areas": [
+    "REPLACE_WITH_STATE_OR_REGION_ACTUALLY_SERVED"
+  ],
   "annual_budget_usd": "REPLACE_WITH_APPROX_BUDGET",
   "grant_types": [
     "government_federal",
@@ -20,5 +23,5 @@
   ],
   "min_grant_amount_usd": 0,
   "exclude_keywords": [],
-  "notes": "Edit every REPLACE_ field above before the first run. The search agent reads this file to decide what counts as a relevant grant."
+  "notes": "Edit every REPLACE_ field above before the first run. The search agent reads this file to decide what counts as a relevant grant. home_base is where the org is registered/headquartered (used for HQ-only local grants); service_areas lists everywhere it actually operates or serves clients (used for state/regional grants, which usually require operating in-state, not just federal registration there). If home_base and service_areas are the same place, list it in both."
 }
