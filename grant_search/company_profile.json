@@ -27,6 +27,7 @@
     "private_foundation"
   ],
   "min_grant_amount_usd": 0,
+  "min_grant_amount_note": "Deliberately 0 — the org is open to awards of any size, so the search applies no floor. This is a confirmed choice, not an unset default.",
   "exclude_keywords": [],
   "notes": "home_base is where the org is registered/headquartered (used for HQ-only local grants); service_areas lists everywhere it actually operates or serves clients (used for state/regional grants, which usually require operating in-state, not just federal registration there). Values in this file are fed directly into web searches, so keep them as natural text — no underscores."
 }
