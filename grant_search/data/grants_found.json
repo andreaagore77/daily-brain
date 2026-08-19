@@ -1,107 +1,304 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "last_run": "2026-08-19",
-  "verification_note": "Entries below were assembled from web-search result summaries only. The sandbox running this search has WebFetch/direct-HTTP egress blocked, so no funder page was opened and verified directly. Treat every deadline and amount as UNCONFIRMED until checked at the source URL.",
-  "grants": [
+  "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's — confirm against each NOFO before investing writing time.",
+  "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
+  "tier_1_act_now": [
+    {
+      "title": "BJA FY2026 Second Chance Act: Improving Reentry Education and Employment Outcomes",
+      "funder": "US DOJ, Bureau of Justice Assistance",
+      "grant_type": "government_federal",
+      "amount": "Up to $1,000,000",
+      "deadline": "2026-09-24",
+      "fit": "strongest_federal_match",
+      "summary": "Directly on mission: reentry services for justice-involved people, with education and employment outcomes. Nonprofit community-based organizations are eligible. The org's NJ recovery court, IDRC, and reentry partnerships are exactly the local infrastructure these solicitations expect applicants to have.",
+      "watch_out": "Award size (up to $1M) is 3x the org's annual budget. Federal reviewers weigh organizational capacity heavily; a sub-award or partnership role with a larger lead applicant may score better than a solo bid.",
+      "first_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "title": "BJA FY2026 Second Chance Act: Family-Based Substance Use Disorder Treatment Program",
+      "funder": "US DOJ, Bureau of Justice Assistance",
+      "grant_type": "government_federal",
+      "amount": "Up to $1,000,000",
+      "deadline": "2026-09-24",
+      "fit": "strong",
+      "summary": "Intersects three of the org's focus areas at once — SUD, family/community resilience, and justice involvement. Same deadline as the reentry education solicitation.",
+      "watch_out": "Titled a 'Treatment Program'. The org delivers psychoeducation and wraparound support and connects clients to outpatient/IOP treatment rather than providing treatment directly. Confirm whether the NOFO requires the applicant to deliver clinical treatment itself, or accepts a treatment-partner structure.",
+      "first_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "title": "Empower New Jersey Grant",
+      "funder": "Community Foundation of New Jersey",
+      "grant_type": "private_foundation",
+      "amount": "$50,000 - $100,000",
+      "deadline": "2026-09-30",
+      "fit": "strong",
+      "summary": "NJ-statewide, award size proportionate to a $300k-budget org (roughly 17-33% of annual budget), foundation rather than federal so the compliance lift is far lighter than the BJA solicitations. Best effort-to-probability ratio on this list.",
+      "first_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "title": "Champions in Action Grant",
+      "funder": "Citizens Charitable Foundation",
+      "grant_type": "private_foundation",
+      "amount": "$50,000",
+      "deadline": "2026-09-30",
+      "fit": "good",
+      "summary": "Flat $50k award, corporate foundation. Typically themed by cause area each cycle — worth checking whether this round's theme covers behavioral health or reentry.",
+      "first_seen": "2026-08-19",
+      "status": "open"
+    },
     {
       "title": "Standard Grants",
-      "funder": "The Healthcare Foundation of New Jersey (HFNJ)",
-      "url": "https://hfnj.org/applications-deadlines/",
+      "funder": "The Healthcare Foundation of New Jersey",
       "grant_type": "private_foundation",
-      "amount": "$35,000+",
-      "deadline": "2026-08-28",
-      "other_deadlines": ["2026-11-21"],
-      "footprint": "priority_county",
-      "summary": "Strongest match found. HFNJ funds at-risk/underserved health programs in greater Newark and the Jewish Federation of Greater MetroWest NJ footprint, which per search results covers Essex, Morris, Somerset, Union and parts of Sussex counties — overlapping three of the four priority counties. Recent priorities reportedly emphasize youth mental health and behavioral health. Next quarterly deadline is 9 days out; Nov 21 is the following cycle.",
+      "amount": "Unspecified (search indicated $35,000+)",
+      "deadline": "2026-11-19",
+      "fit": "strong_geographic",
+      "summary": "Greater Newark plus the Greater MetroWest footprint (Essex, Morris, Somerset, Union, parts of Sussex) — overlaps three of four priority counties. Reported recent emphasis on youth and behavioral health.",
+      "watch_out": "Confirm whether an org with no Jewish Federation affiliation qualifies under the 'targeted vulnerable populations elsewhere in Essex, Morris, and Union' clause.",
       "first_seen": "2026-08-19",
-      "status": "open",
-      "confidence": "unverified_search_snippet",
-      "verify_before_acting": "Confirm the Aug 28 deadline, whether a non-Jewish-affiliated org in Union/Somerset qualifies under the 'targeted vulnerable populations elsewhere' clause, and any audit requirement."
-    },
-    {
-      "title": "Special One-time Grants",
-      "funder": "The Healthcare Foundation of New Jersey (HFNJ)",
-      "url": "https://hfnj.org/applications-deadlines/",
-      "grant_type": "private_foundation",
-      "amount": "Under $35,000",
-      "deadline": "rolling",
-      "footprint": "priority_county",
-      "summary": "Rolling-deadline companion to HFNJ's standard program, same geography. Lower ceiling but no cycle to wait for — a plausible first approach to this funder given the org is open to awards of any size.",
-      "first_seen": "2026-08-19",
-      "status": "open",
-      "confidence": "unverified_search_snippet",
-      "verify_before_acting": "Confirm rolling status and eligibility geography."
-    },
-    {
-      "title": "Small Grants (rolling)",
-      "funder": "Community Foundation of New Jersey (CFNJ)",
-      "url": "https://cfnj.org/find-grants/",
-      "grant_type": "private_foundation",
-      "amount": "Up to $15,000",
-      "deadline": "rolling",
-      "footprint": "statewide",
-      "summary": "CFNJ reviews small grant requests up to $15,000 on a rolling basis through its grants management system, funding nonprofits promoting healthier individuals and communities statewide. Note: its dedicated children's behavioral health funding is reportedly earmarked for Sussex and Morris counties, outside the priority footprint — the general health track is the relevant door.",
-      "first_seen": "2026-08-19",
-      "status": "open",
-      "confidence": "unverified_search_snippet",
-      "verify_before_acting": "Confirm the general health track is open to Essex/Bergen/Union/Somerset applicants."
-    },
-    {
-      "title": "2026 Arts & Community Health Request for Proposals",
-      "funder": "The Horizon Foundation for New Jersey",
-      "url": "https://www.horizonblue.com/foundation/2026-arts-community-health-request-proposals",
-      "grant_type": "private_foundation",
-      "amount": "Not stated in search results",
-      "deadline": "unknown_rfp_released_2026-06-01",
-      "footprint": "statewide",
-      "summary": "Annual RFP released June 1, 2026; decisions communicated December 2026 with funded programs starting January 1, 2027. Open to organizations whose mission promotes health in New Jersey communities. Partial fit — the 'Arts & Community Health' framing may or may not accommodate a pure behavioral-health education program.",
-      "first_seen": "2026-08-19",
-      "status": "needs_verification",
-      "confidence": "unverified_search_snippet",
-      "verify_before_acting": "Find the actual submission deadline (not surfaced in search) and confirm behavioral health education is in scope. NOTE: requires a current satisfactory CPA financial audit for ALL applicants including those under $500k income — a real cost/feasibility gate for a $300k-budget org."
-    },
+      "status": "open"
+    }
+  ],
+  "tier_2_strong_fit_later_deadline": [
     {
       "title": "Pathways to Recovery",
       "funder": "NJ Department of Labor and Workforce Development",
-      "url": "https://www.nj.gov/labor/lwdhome/press/2026/20260212_pathways.shtml",
       "grant_type": "state_regional",
-      "amount": "$5 million program total",
-      "deadline": "unknown_check_fall_cycle",
-      "footprint": "statewide",
-      "summary": "Provides training, career services, and supportive services to NJ residents impacted by opioid use. Eligible applicants reportedly include nonprofits with connections to mental health and opioid use disorder treatment centers — which the org's treatment-provider partnerships would support. Pre-application periods reportedly opened Jan 26, 2026 (spring) and mid-June 2026 (fall).",
-      "first_seen": "2026-08-19",
-      "status": "needs_verification",
-      "confidence": "unverified_search_snippet",
-      "verify_before_acting": "Determine whether the fall cycle is still open as of late August 2026."
+      "amount": "Up to $1,000,000",
+      "deadline": "2027-03-05",
+      "deadline_type": "LOI",
+      "fit": "strong",
+      "summary": "Services for NJ residents impacted by opioid use; nonprofits connected to MH/OUD treatment centers eligible, which the org's provider partnerships support. Round 2 NGO track has an LOI deadline of 2027-03-26."
+    },
+    {
+      "title": "Pathways to Recovery - Round 2 NGO",
+      "funder": "NJ Department of Labor and Workforce Development",
+      "grant_type": "state_regional",
+      "amount": "Up to $1,000,000",
+      "deadline": "2027-03-26",
+      "deadline_type": "LOI",
+      "fit": "strong",
+      "summary": "NGO-specific track of the above — likely the more appropriate door for this org than the general round."
+    },
+    {
+      "title": "General Operating and Project Grants",
+      "funder": "Partners For Health Foundation",
+      "grant_type": "private_foundation",
+      "amount": "Unspecified",
+      "deadline": "2027-02-23",
+      "deadline_type": "pre-proposal",
+      "fit": "strong_geographic",
+      "summary": "Essex County-focused health funder. General operating support is rare and disproportionately valuable for a small org — unrestricted money funds the infrastructure project grants won't."
+    },
+    {
+      "title": "Specific Population Community Grant Competitive",
+      "funder": "NJ Department of Health",
+      "grant_type": "state_regional",
+      "amount": "Up to $500,000",
+      "deadline": "2027-05-18",
+      "deadline_type": "LOI",
+      "fit": "good",
+      "summary": "State health funding explicitly aimed at community organizations serving specific populations — the justice-involved population qualifies as one."
+    },
+    {
+      "title": "Job Opportunities for Building Success",
+      "funder": "NJ Department of Labor and Workforce Development",
+      "grant_type": "state_regional",
+      "amount": "Up to $1,000,000",
+      "deadline": "2027-03-04",
+      "deadline_type": "LOI",
+      "fit": "good",
+      "summary": "Employment pathways; reentry employment is a natural framing given the org's justice-involved population."
+    },
+    {
+      "title": "New Jersey Violence Against Women Act (VAWA) Competitive Grant Program",
+      "funder": "NJ Department of Law & Public Safety",
+      "grant_type": "state_regional",
+      "amount": "Up to $75,000",
+      "deadline": "2027-06-15",
+      "fit": "good",
+      "summary": "Maps directly onto the stated domestic violence prevention work inside the family & community resilience focus area. Award size is realistic for the org's scale."
+    },
+    {
+      "title": "Empowerment Grant",
+      "funder": "Provident Bank Foundation",
+      "grant_type": "private_foundation",
+      "amount": "$5,000 - $25,000",
+      "deadline": "2027-04-30",
+      "fit": "good",
+      "summary": "NJ bank foundation, modest award, low application burden relative to federal work."
+    },
+    {
+      "title": "Project ATLAS",
+      "funder": "NJ Department of State, Office of Faith Based Initiatives",
+      "grant_type": "state_regional",
+      "amount": "Up to $10,000",
+      "deadline": "2027-02-26",
+      "fit": "good",
+      "summary": "Small but well-aligned with community-based reentry and recovery support; this office funds exactly this kind of grassroots work."
+    },
+    {
+      "title": "Neighborhood Partners Program",
+      "funder": "PSEG Foundation",
+      "grant_type": "private_foundation",
+      "amount": "$500 - $15,000",
+      "deadline": "2027-06-30",
+      "fit": "moderate",
+      "summary": "NJ utility foundation, community-level giving across the service area."
+    },
+    {
+      "title": "Awards for Advancing Minority Mental Health",
+      "funder": "American Psychiatric Association Foundation",
+      "grant_type": "private_foundation",
+      "amount": "$5,000",
+      "deadline": "2027-01-31",
+      "fit": "moderate",
+      "summary": "Small award but carries professional credibility that helps with later funders."
+    },
+    {
+      "title": "JOIN! Grants",
+      "funder": "OceanFirst Foundation",
+      "grant_type": "private_foundation",
+      "amount": "Up to $2,500",
+      "deadline": "rolling",
+      "fit": "moderate",
+      "summary": "NJ funder, rolling, tiny award and correspondingly light application. Reasonable low-cost first touch."
+    },
+    {
+      "title": "Get Out and Get Active Grant",
+      "funder": "Anxiety & Depression Initiative",
+      "grant_type": "private_foundation",
+      "amount": "Up to $10,000",
+      "deadline": "2027-04-27",
+      "fit": "moderate"
+    },
+    {
+      "title": "JAMS Foundation NAFCM Mini-Grant Program",
+      "funder": "JAMS Foundation",
+      "grant_type": "private_foundation",
+      "amount": "Up to $15,000",
+      "deadline": "2027-02-23",
+      "deadline_type": "LOI",
+      "fit": "moderate",
+      "summary": "Conflict resolution / mediation focus — maps to the anger management and healthy communication workshops."
+    },
+    {
+      "title": "Therapeutic Giving: Neuroscience - Local & Regional Organizations",
+      "funder": "Johnson & Johnson Innovative Medicine",
+      "grant_type": "private_foundation",
+      "amount": "Unspecified",
+      "deadline": "2027-05-31",
+      "fit": "moderate",
+      "summary": "Corporate giving with a local/regional track; mental health falls under its neuroscience umbrella."
+    },
+    {
+      "title": "Citizens Philanthropic Foundation Grant: Workforce Development",
+      "funder": "Citizens Philanthropic Foundation",
+      "grant_type": "private_foundation",
+      "amount": "Unspecified",
+      "deadline": "2027-05-22",
+      "fit": "moderate"
+    },
+    {
+      "title": "Citizens Philanthropic Foundation Grant: Financial Empowerment",
+      "funder": "Citizens Philanthropic Foundation",
+      "grant_type": "private_foundation",
+      "amount": "Unspecified",
+      "deadline": "2026-12-01",
+      "deadline_type": "pre-proposal",
+      "fit": "moderate"
     }
   ],
-  "recurring_programs_to_watch": [
+  "tier_3_possible_needs_research": [
     {
-      "program": "SAMHSA Treatment, Recovery, and Workforce Support (TI-26-009)",
-      "why": "Deadline July 23, 2026 has passed. $10.5M program, max $500k per award, 21 awards, open to private nonprofits providing SUD/COD treatment and recovery services in partnership with local/state stakeholders — a close fit. Watch for the FY2027 cycle.",
-      "url": "https://www.samhsa.gov/grants/grants-dashboard"
+      "title": "State Justice Institute Project Grant",
+      "funder": "State Justice Institute",
+      "amount": "Up to $300,000",
+      "deadline": "2026-11-01",
+      "note": "SJI funds state court improvement. The org's recovery court and IDRC partnerships could make it a program partner on a court-led application rather than the applicant of record."
     },
     {
-      "program": "BJA Second Chance Act — Community-Based Reentry Program",
-      "why": "FY25 cycle closed May 2026. $500k-$750k awards, explicitly open to nonprofit community-based organizations serving reentry populations — arguably the single best-fit federal program for this org. Watch for the next solicitation.",
-      "url": "https://bja.ojp.gov/funding/opportunities/o-bja-2025-172499"
+      "title": "Preventive Health Services Grant Program",
+      "funder": "NJ Department of Health",
+      "amount": "Up to $535,000",
+      "deadline": "2026-11-17",
+      "note": "Check whether community nonprofits are eligible applicants or whether this flows to local health departments."
     },
     {
-      "program": "NJ DMHAS RFPs / NOFAs",
-      "why": "State behavioral health authority; Integrated Care Program RFP closed July 17, 2026. This page is the primary source for NJ state behavioral health procurements and should be checked every run.",
-      "url": "https://www.nj.gov/humanservices/dmhas/notices/opportunities/"
+      "title": "Omnibus Eviction and Homelessness Prevention (OEHP)",
+      "funder": "NJ Department of Community Affairs",
+      "amount": "Unspecified",
+      "deadline": "2026-12-02",
+      "note": "Housing stability is adjacent to reentry wraparound, and the founder's lived experience with homelessness is relevant framing. A second OEHP RFP shows 2026-12-09."
     },
     {
-      "program": "NJLEAD (NJ Department of Corrections)",
-      "why": "2026 awards to 41 organizations announced July 6, 2026 — that cycle is closed. Funds housing, employment prep, case management, and behavioral/mental health support for reentry. Structured around municipalities hiring a Reentry Coordinator, so the likely route here is subgrantee/service-provider partnership with a funded municipality rather than direct application.",
-      "url": "https://www.nj.gov/corrections/pdf/PressRelease_PS/260706_NJDOC_Awards_2026_NJLEAD_Grants.pdf"
+      "title": "SNAP Skills, Training, Employment, Program To Success (STEPS)",
+      "funder": "NJ Department of Labor and Workforce Development",
+      "amount": "Up to $500,000",
+      "deadline": "2026-09-12",
+      "deadline_type": "LOI",
+      "note": "Near-term LOI. Employment/training for SNAP recipients; overlap with the reentry population is real but the org would need a workforce services track record."
+    },
+    {
+      "title": "NJ Chronic Disease Prevention Grant",
+      "funder": "NJ Department of Health",
+      "amount": "Up to $150,000",
+      "deadline": "2026-12-23",
+      "deadline_type": "LOI",
+      "note": "Only if behavioral health is in scope for this cycle — often targeted at diabetes/cardiovascular."
+    },
+    {
+      "title": "Syringe Service Program Grant",
+      "funder": "Comer Family Foundation",
+      "amount": "$2,500 - $20,000",
+      "deadline": "2026-10-31",
+      "note": "Only relevant if the org runs or plans harm-reduction syringe services. Currently out of scope per the profile."
+    },
+    {
+      "title": "Rolling family foundations (focus unverified)",
+      "funder": "Adam R Scripps Foundation; Kim Family Foundation (Kayasa); Bernau Family Foundation; Jennie K Scaife Charitable Foundation",
+      "deadline": "rolling / 2027",
+      "note": "Small family foundations with unclear published priorities. Worth 15 minutes each on their 990s to see what they actually fund before writing anything."
     }
   ],
-  "filtered_out_expired": [
-    "SAMHSA TI-26-009 Treatment, Recovery, and Workforce Support — closed 2026-07-23",
-    "BJA FY25 Second Chance Act Community-Based Reentry — closed 2026-05-11",
-    "BJA FY25 Second Chance Act Improving Reentry Education and Employment Outcomes — closed 2026-05-11",
-    "NJ DMHAS Integrated Care Program RFP — closed 2026-07-17",
-    "HFNJ Standard Grants Q3 cycle — closed 2026-08-14"
-  ]
+  "screened_out": {
+    "research_institution_required": [
+      "All NIH mechanisms on the list (R61/R33, P50, P30, K12, R25, U01, NIDA Core Center, HEAL IMPOWR/BEACON, Pilot & Feasibility Studies, Specialized Alcohol Research Centers, AIDS Research Center, TCORS)",
+      "CDC Improving Linkage to Care (U01), Nonfatal Overdoses in Emergency Departments, Core SIPP, Alcohol Epidemiology capacity building, NNPTC",
+      "PCORI Engagement Award: Dissemination Initiative",
+      "BJS Criminal History Record Assessment and Research Program",
+      "National Research Center for Promoting Work and Strong Families",
+      "Applied Drug Policy Research Experiences",
+      "NJ Commission on Brain Injury Research (Pilot and Fellowship)",
+      "DoD/Army TBI and Psychological Health awards",
+      "Reason: these require an academic or research institution, a principal investigator, and IRB infrastructure the org does not have."
+    ],
+    "state_or_government_applicant_only": [
+      "Comprehensive Suicide Prevention Program for States",
+      "SSUS State STD Program, SSUS HIV Services",
+      "Public Health Emergency Preparedness LINCS RFA",
+      "Public Health Leadership and Workforce Development",
+      "Comprehensive Cancer Control Program (both listings)",
+      "Diabetes Capacity Building Grant Program",
+      "Rural Health Transformation Program ($27.5M)",
+      "FY2026 988 Suicide & Crisis Lifeline Administrator ($231M), Disaster Distress Helpline",
+      "Reason: applicant must be a state agency or designated statewide administrator."
+    ],
+    "national_tta_provider_scale": [
+      "FY2026 Drug Court Training and Technical Assistance ($6M)",
+      "RSAT for State Prisoners TTA (both listings)",
+      "CSBG Essentials for Improved Outcomes, CSBG Communities of Practice",
+      "Establishing a Center for SUD Pharmacotherapeutics",
+      "Reason: national training-and-TA contracts awarded to large established intermediaries; CSBG additionally routes through designated Community Action Agencies."
+    ],
+    "geography_or_topic_mismatch": [
+      "Rural Opioid Technical Assistance Centers, Rural Communities Opioid Response (Evaluation and Community Systems Development) — the four priority counties are not rural",
+      "Consolidated Adult Basic Skills/IELCE, Community Library Adult Literacy — adult literacy education, outside scope",
+      "Affordable Housing and Supportive Services Demonstration (2026-08-24) — housing developer/provider focus and five days out"
+    ]
+  }
 }
