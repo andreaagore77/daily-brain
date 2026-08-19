@@ -5,9 +5,10 @@ It is also the text used as the Routine prompt.
 
 ## Steps
 
-1. Read `grant_search/company_profile.json` in this repo. If any field still
-   starts with `REPLACE_`, stop and report that the profile needs to be
-   filled in before searching — do not guess company details.
+1. Run `python3 grant_search/validate_profile.py`. If it exits non-zero,
+   stop and report exactly what it printed — do not guess company details
+   or search against a broken profile. Then read
+   `grant_search/company_profile.json` for the org's details.
 
 2. Read `grant_search/data/grants_found.json` for grants already recorded
    (dedupe key: `url`, falling back to `title + funder`).

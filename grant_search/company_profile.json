@@ -1,21 +1,22 @@
 {
-  "company_name": "REPLACE_WITH_COMPANY_NAME",
+  "company_name": "Clear Conscience Consulting",
   "org_type": "nonprofit",
-  "ein_or_registration_number": "REPLACE_IF_APPLICABLE",
-  "mission_summary": "REPLACE_WITH_ONE_PARAGRAPH_MISSION",
+  "ein_or_registration_number": "39-5041033",
+  "mission_summary": "Clear Conscience Consulting's mission is to interrupt the intersecting cycle of mental illness, substance use disorder, trauma, and justice involvement in New Jersey communities. It does this by delivering trauma-informed, evidence-based behavioral health education, psychoeducation, and wraparound support services, using approaches like TIC, CBT, EMDR, Motivational Interviewing, and Seeking Safety, to individuals and families across the full continuum from prevention through reentry and reintegration. The organization is grounded in founder Dr. John A. Gore III's own lived experience with homelessness and incarceration, combined with a decade of clinical expertise, and works through established partnerships with NJ courts, recovery courts, the IDRC, and care management organizations to reach populations that traditional systems often miss.",
   "focus_areas": [
-    "REPLACE_WITH_FOCUS_AREA_1",
-    "REPLACE_WITH_FOCUS_AREA_2"
+    "Mental health & substance use disorder education/support — psychoeducation workshops on mental health awareness, substance use prevention, anger management, and emotional wellness, plus connections to outpatient/intensive outpatient treatment.",
+    "Reentry & justice-involved reintegration — behavioral health education and wraparound support for justice-involved individuals, delivered through partnerships with NJ recovery courts, the IDRC, and reentry programs.",
+    "Family & community resilience — family-focused workshops on childhood trauma, domestic violence prevention, and healthy communication skills."
   ],
   "home_base": {
-    "country": "US",
-    "state_or_region": "REPLACE_WITH_STATE",
-    "city": "REPLACE_WITH_CITY"
+    "country": "USA",
+    "state_or_region": "New Jersey",
+    "city": "Green Brook"
   },
   "service_areas": [
-    "REPLACE_WITH_STATE_OR_REGION_ACTUALLY_SERVED"
+    "New Jersey"
   ],
-  "annual_budget_usd": "REPLACE_WITH_APPROX_BUDGET",
+  "annual_budget_usd": 300000,
   "grant_types": [
     "government_federal",
     "state_regional",
@@ -23,5 +24,5 @@
   ],
   "min_grant_amount_usd": 0,
   "exclude_keywords": [],
-  "notes": "Edit every REPLACE_ field above before the first run. The search agent reads this file to decide what counts as a relevant grant. home_base is where the org is registered/headquartered (used for HQ-only local grants); service_areas lists everywhere it actually operates or serves clients (used for state/regional grants, which usually require operating in-state, not just federal registration there). If home_base and service_areas are the same place, list it in both."
+  "notes": "home_base is where the org is registered/headquartered (used for HQ-only local grants); service_areas lists everywhere it actually operates or serves clients (used for state/regional grants, which usually require operating in-state, not just federal registration there). Values in this file are fed directly into web searches, so keep them as natural text — no underscores."
 }
