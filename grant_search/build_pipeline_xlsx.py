@@ -106,7 +106,39 @@ ROWS = [
      "invitation-only. Pull Form 990s before writing - 15 min each tells you "
      "whether they accept unsolicited requests at all."),
 
-    (19, "SNAP STEPS", "NJ Dept. of Labor & Workforce Dev.", "State / regional",
+    (0, "Therapeutic Giving: Neuroscience - Local & Regional",
+     "Johnson & Johnson Innovative Medicine", "Private foundation",
+     dt.date(2027, 5, 31), "Full", None, None, 0.12, "C",
+     "Corporate giving with a local/regional track; mental health sits under its "
+     "neuroscience umbrella. Pharma giving tends to favor established orgs and "
+     "clinically-adjacent work, which caps the odds. Amount unpublished."),
+    (0, "Citizens Philanthropic Foundation: Workforce Development",
+     "Citizens Philanthropic Foundation", "Private foundation",
+     dt.date(2027, 5, 22), "Full", None, None, 0.12, "C",
+     "Reentry employment is a workable framing. Note this is the same corporate "
+     "family as Champions in Action - a relationship built through one may help "
+     "the other. Amount unpublished."),
+    (0, "Get Out and Get Active Grant", "Anxiety & Depression Initiative",
+     "Private foundation", dt.date(2027, 4, 27), "Full", None, 10000, 0.10, "C",
+     "PARTIAL FIT: this funder targets physical activity as an intervention for "
+     "anxiety and depression. The org does psychoeducation and emotional wellness, "
+     "not movement programming - a competitive application would need a genuine "
+     "activity-based component, not a relabelling of existing workshops."),
+    (0, "JAMS Foundation NAFCM Mini-Grant Program", "JAMS Foundation",
+     "Private foundation", dt.date(2027, 2, 23), "LOI", None, 15000, 0.08, "D",
+     "ELIGIBILITY RISK: administered with the National Association for Community "
+     "Mediation and generally aimed at NAFCM member community mediation centers. "
+     "The org is not a mediation center. Anger management and healthy communication "
+     "workshops map to the subject matter, but confirm whether non-member "
+     "organizations can apply at all before spending time here."),
+    (0, "Citizens Philanthropic Foundation: Financial Empowerment",
+     "Citizens Philanthropic Foundation", "Private foundation",
+     dt.date(2026, 12, 1), "Pre-proposal", None, None, 0.08, "D",
+     "Weakest fit of the five: this track funds financial literacy and coaching, "
+     "which the org does not currently deliver. Nearest deadline of the group, but "
+     "would require standing up a service line rather than describing one."),
+
+    (0, "SNAP STEPS", "NJ Dept. of Labor & Workforce Dev.", "State / regional",
      dt.date(2026, 9, 12), "LOI", None, 500000, None, "E",
      "VERIFY FIRST: near-term LOI. Overlap with reentry population is real but "
      "the org would need a workforce services track record."),
@@ -123,6 +155,12 @@ ROWS = [
      "VERIFY FIRST: often targeted at diabetes/cardiovascular - confirm behavioral "
      "health is in scope this cycle."),
 ]
+
+# Rank is derived, never hand-maintained: sort by estimated win probability
+# descending, with unscored "verify first" rows last, then renumber. This keeps
+# the sheet consistent whenever a row is added or a score changes.
+ROWS.sort(key=lambda r: (r[8] is None, -(r[8] or 0)))
+ROWS = [(i, *row[1:]) for i, row in enumerate(ROWS, start=1)]
 
 HEADERS = [
     ("Rank", 6), ("Opportunity", 42), ("Funder", 36), ("Type", 17),

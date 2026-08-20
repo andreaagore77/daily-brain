@@ -252,13 +252,6 @@
       "note": "Only if behavioral health is in scope for this cycle \u2014 often targeted at diabetes/cardiovascular."
     },
     {
-      "title": "Syringe Service Program Grant",
-      "funder": "Comer Family Foundation",
-      "amount": "$2,500 - $20,000",
-      "deadline": "2026-10-31",
-      "note": "Only relevant if the org runs or plans harm-reduction syringe services. Currently out of scope per the profile."
-    },
-    {
       "title": "Rolling family foundations (focus unverified)",
       "funder": "Adam R Scripps Foundation; Kim Family Foundation (Kayasa); Bernau Family Foundation; Jennie K Scaife Charitable Foundation",
       "deadline": "rolling / 2027",
@@ -299,6 +292,9 @@
       "Rural Opioid Technical Assistance Centers, Rural Communities Opioid Response (Evaluation and Community Systems Development) \u2014 the four priority counties are not rural",
       "Consolidated Adult Basic Skills/IELCE, Community Library Adult Literacy \u2014 adult literacy education, outside scope",
       "Affordable Housing and Supportive Services Demonstration (2026-08-24) \u2014 housing developer/provider focus and five days out"
+    ],
+    "service_line_not_operated": [
+      "Syringe Service Program Grant (Comer Family Foundation, $2,500-$20,000, 2026-10-31) - funds harm-reduction syringe services, which the org does not operate. Was sitting in tier 3 'needs research'; moved here so the JSON and the spreadsheet agree. Revisit only if the org adds a harm-reduction line."
     ]
   },
   "watch_list_no_confirmed_cycle": [
@@ -375,5 +371,6 @@
       }
     ],
     "net_effect": "No items restored to the pipeline. Two cuts confirmed correct (one with a corrected reason); one moved from 'screened out' to 'undetermined, verify by December'."
-  }
+  },
+  "scoring_note": "Five foundation opportunities that had been described in prose but never scored were assigned estimates on 2026-08-20: J&J Neuroscience Local & Regional (12%), Citizens Workforce Development (12%), Get Out and Get Active (10%), JAMS/NAFCM (8%), Citizens Financial Empowerment (8%). All rank below the existing tier A and B items, which is why they had been left out of the ranking - but they belong in it. Spreadsheet rank is now computed from probability rather than hand-maintained, so adding a row or changing a score cannot desynchronise it again."
 }
