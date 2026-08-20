@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "last_run": "2026-08-19",
-  "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's — confirm against each NOFO before investing writing time.",
+  "last_run": "2026-08-20",
+  "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
     {
@@ -23,7 +23,7 @@
       "amount": "Up to $1,000,000",
       "deadline": "2026-09-24",
       "fit": "strong",
-      "summary": "Intersects three of the org's focus areas at once — SUD, family/community resilience, and justice involvement. Same deadline as the reentry education solicitation.",
+      "summary": "Intersects three of the org's focus areas at once \u2014 SUD, family/community resilience, and justice involvement. Same deadline as the reentry education solicitation.",
       "watch_out": "Titled a 'Treatment Program'. The org delivers psychoeducation and wraparound support and connects clients to outpatient/IOP treatment rather than providing treatment directly. Confirm whether the NOFO requires the applicant to deliver clinical treatment itself, or accepts a treatment-partner structure.",
       "first_seen": "2026-08-19",
       "status": "open"
@@ -46,7 +46,7 @@
       "amount": "$50,000",
       "deadline": "2026-09-30",
       "fit": "good",
-      "summary": "Flat $50k award, corporate foundation. Typically themed by cause area each cycle — worth checking whether this round's theme covers behavioral health or reentry.",
+      "summary": "Flat $50k award, corporate foundation. Typically themed by cause area each cycle \u2014 worth checking whether this round's theme covers behavioral health or reentry.",
       "first_seen": "2026-08-19",
       "status": "open"
     },
@@ -57,7 +57,7 @@
       "amount": "Unspecified (search indicated $35,000+)",
       "deadline": "2026-11-19",
       "fit": "strong_geographic",
-      "summary": "Greater Newark plus the Greater MetroWest footprint (Essex, Morris, Somerset, Union, parts of Sussex) — overlaps three of four priority counties. Reported recent emphasis on youth and behavioral health.",
+      "summary": "Greater Newark plus the Greater MetroWest footprint (Essex, Morris, Somerset, Union, parts of Sussex) \u2014 overlaps three of four priority counties. Reported recent emphasis on youth and behavioral health.",
       "watch_out": "Confirm whether an org with no Jewish Federation affiliation qualifies under the 'targeted vulnerable populations elsewhere in Essex, Morris, and Union' clause.",
       "first_seen": "2026-08-19",
       "status": "open"
@@ -82,7 +82,7 @@
       "deadline": "2027-03-26",
       "deadline_type": "LOI",
       "fit": "strong",
-      "summary": "NGO-specific track of the above — likely the more appropriate door for this org than the general round."
+      "summary": "NGO-specific track of the above \u2014 likely the more appropriate door for this org than the general round."
     },
     {
       "title": "General Operating and Project Grants",
@@ -92,7 +92,7 @@
       "deadline": "2027-02-23",
       "deadline_type": "pre-proposal",
       "fit": "strong_geographic",
-      "summary": "Essex County-focused health funder. General operating support is rare and disproportionately valuable for a small org — unrestricted money funds the infrastructure project grants won't."
+      "summary": "Essex County-focused health funder. General operating support is rare and disproportionately valuable for a small org \u2014 unrestricted money funds the infrastructure project grants won't."
     },
     {
       "title": "Specific Population Community Grant Competitive",
@@ -102,7 +102,7 @@
       "deadline": "2027-05-18",
       "deadline_type": "LOI",
       "fit": "good",
-      "summary": "State health funding explicitly aimed at community organizations serving specific populations — the justice-involved population qualifies as one."
+      "summary": "State health funding explicitly aimed at community organizations serving specific populations \u2014 the justice-involved population qualifies as one."
     },
     {
       "title": "Job Opportunities for Building Success",
@@ -184,7 +184,7 @@
       "deadline": "2027-02-23",
       "deadline_type": "LOI",
       "fit": "moderate",
-      "summary": "Conflict resolution / mediation focus — maps to the anger management and healthy communication workshops."
+      "summary": "Conflict resolution / mediation focus \u2014 maps to the anger management and healthy communication workshops."
     },
     {
       "title": "Therapeutic Giving: Neuroscience - Local & Regional Organizations",
@@ -249,7 +249,7 @@
       "amount": "Up to $150,000",
       "deadline": "2026-12-23",
       "deadline_type": "LOI",
-      "note": "Only if behavioral health is in scope for this cycle — often targeted at diabetes/cardiovascular."
+      "note": "Only if behavioral health is in scope for this cycle \u2014 often targeted at diabetes/cardiovascular."
     },
     {
       "title": "Syringe Service Program Grant",
@@ -296,9 +296,51 @@
       "Reason: national training-and-TA contracts awarded to large established intermediaries; CSBG additionally routes through designated Community Action Agencies."
     ],
     "geography_or_topic_mismatch": [
-      "Rural Opioid Technical Assistance Centers, Rural Communities Opioid Response (Evaluation and Community Systems Development) — the four priority counties are not rural",
-      "Consolidated Adult Basic Skills/IELCE, Community Library Adult Literacy — adult literacy education, outside scope",
-      "Affordable Housing and Supportive Services Demonstration (2026-08-24) — housing developer/provider focus and five days out"
+      "Rural Opioid Technical Assistance Centers, Rural Communities Opioid Response (Evaluation and Community Systems Development) \u2014 the four priority counties are not rural",
+      "Consolidated Adult Basic Skills/IELCE, Community Library Adult Literacy \u2014 adult literacy education, outside scope",
+      "Affordable Housing and Supportive Services Demonstration (2026-08-24) \u2014 housing developer/provider focus and five days out"
     ]
-  }
+  },
+  "watch_list_no_confirmed_cycle": [
+    {
+      "title": "Adult Reentry Program",
+      "funder": "SAMHSA",
+      "grant_type": "government_federal",
+      "amount": "Up to $400,000 total costs per year",
+      "deadline": "no_confirmed_fy2026_cycle",
+      "first_seen": "2026-08-20",
+      "status": "watch",
+      "confidence": "unverified_search_snippet",
+      "summary": "Purpose is close to a verbatim description of this org's mission: expand SUD treatment and related recovery and reentry services to sentenced adults with SUD and/or co-occurring disorders returning to family and community after incarceration. Private nonprofits are explicitly eligible, and the $400k/yr ceiling is far better matched to a $300k budget than the $1M Second Chance Act tracks.",
+      "verify_before_acting": "Last confirmed announcement is TI-23-006 (pre-2025). No FY2026 cycle surfaced in search. Check the SAMHSA grants dashboard for an FY2026/FY2027 reissue.",
+      "url": "https://www.samhsa.gov/grants/grants-dashboard"
+    },
+    {
+      "title": "Improving Adult and Youth Crisis Stabilization and Community Reentry Program",
+      "funder": "US DOJ, Bureau of Justice Assistance",
+      "grant_type": "government_federal",
+      "amount": "Not surfaced in search",
+      "deadline": "no_confirmed_fy2026_cycle",
+      "first_seen": "2026-08-20",
+      "status": "watch",
+      "confidence": "unverified_search_snippet",
+      "summary": "Funds clinical services and evidence-based activities to improve reentry and address treatment/recovery needs for people with mental health, substance use, or co-occurring disorders who are or were justice-involved. Nonprofits are eligible WITH OR WITHOUT 501(c)(3) status.",
+      "why_it_matters": "Eligibility requires nonprofits to apply IN PARTNERSHIP with the relevant criminal or juvenile justice agency. That is not a barrier here - it is the org's existing advantage, given the NJ recovery court and IDRC relationships, and it independently supports the partner-led strategy already recommended for the Second Chance Act tracks.",
+      "verify_before_acting": "Only FY23 and FY25 cycles surfaced. Check bja.ojp.gov for a current solicitation.",
+      "url": "https://bja.ojp.gov/news/funding-available-improving-adult-and-youth-crisis-stabilization-and-community-reentry-program"
+    }
+  ],
+  "open_verification_flags": [
+    {
+      "item": "BJA Second Chance Act tracks (tier_1, deadline 2026-09-24)",
+      "flag": "Two independent searches on 2026-08-20 failed to corroborate a 2026-09-24 deadline. Search surfaced only the FY25 cycle (closed 2026-05-11) and FY24. The 2026-09-24 date comes solely from the Instrumentl export supplied 2026-08-19.",
+      "assessment": "Not a contradiction - Instrumentl tracks live opportunities and archived agency pages dominate search results. But the date has no second source, and SAM.gov registration timing is being planned around it.",
+      "action": "Confirm directly at bja.ojp.gov or grants.gov before committing writing time or treating 2026-09-24 as the SAM.gov registration deadline."
+    },
+    {
+      "item": "Federal reentry eligibility - operational history",
+      "flag": "Search indicates nonprofit applicants for federal reentry funding are typically expected to demonstrate 2-3 years of operational experience in justice-related or workforce programming, and some programs require formal partnership with correctional, probation, or parole agencies.",
+      "action": "Confirm the org meets the operational-history bar before investing in a solo federal application. The partnership requirement is already satisfied in substance by the court/IDRC relationships."
+    }
+  ]
 }
