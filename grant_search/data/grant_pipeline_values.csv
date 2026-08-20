@@ -1,0 +1,52 @@
+Clear Conscience Consulting - Grant Pipeline
+"Ranked most to least likely to be awarded. Estimates are judgment, not measured win rates - see the METHOD rows at the bottom."
+"Fill in: Status, Owner, Next Action. 'Up to' award caps are planned at 50% of cap, since a small org should not request the maximum."
+Rank,Opportunity,Funder,Type,Deadline,Stage,Days Left (as of 2026-08-19),Amount Low,Amount High,Planning Amount,Est. Win %,Expected Value,Tier,Status,Owner,Next Action,Notes / Watch-outs
+1,JOIN! Grants,OceanFirst Foundation,Private foundation,,Rolling,,,2500,1250,50%,625,A,,,,"NJ funder, minimal application, no cycle risk. Fastest possible first win."
+2,Neighborhood Partners Program,PSEG Foundation,Private foundation,2027-06-30,Full,315,500,15000,7750,40%,3100,A,,,,Utility foundation; service territory covers the priority counties.
+3,Empowerment Grant,Provident Bank Foundation,Private foundation,2027-04-30,Full,254,5000,25000,15000,35%,5250,A,,,,CRA-driven giving favors local community orgs. Award size fits budget.
+4,Project ATLAS,"NJ Dept. of State, Office of Faith Based Initiatives",State / regional,2027-02-26,Full,191,,10000,5000,35%,1750,A,,,,State office that exists to fund grassroots community work.
+5,General Operating and Project Grants,Partners For Health Foundation,Private foundation,2027-02-23,Pre-proposal,188,,,,30%,,B,,,,Essex County health funder. GENERAL OPERATING support - rare and worth more per dollar than restricted money. Amount unpublished; confirm range. Verify the org sits inside its service footprint.
+6,Standard Grants,Healthcare Foundation of New Jersey,Private foundation,2026-11-19,Full,92,35000,,35000,25%,8750,B,,,,"3 of 4 priority counties in footprint; reported behavioral health emphasis. OPEN QUESTION: does a non-Federation-affiliated org qualify under the 'vulnerable populations elsewhere in Essex, Morris, Union' clause?"
+7,Empower New Jersey Grant,Community Foundation of New Jersey,Private foundation,2026-09-30,Full,42,50000,100000,75000,20%,15000,B,,,,"Best effort-to-return balance on the list. If only one thing gets written this fall, this is it."
+8,VAWA Competitive Grant Program,NJ Dept. of Law & Public Safety,State / regional,2027-06-15,Full,300,,75000,37500,20%,7500,B,,,,"Maps onto stated DV prevention work. Will want demonstrated DV programming, not just adjacent capacity."
+9,Awards for Advancing Minority Mental Health,American Psychiatric Association Foundation,Private foundation,2027-01-31,Full,165,5000,5000,5000,20%,1000,B,,,,"National pool but tiny award. Real value is the credential, not the cash."
+10,Pathways to Recovery - Round 2 NGO,NJ Dept. of Labor & Workforce Dev.,State / regional,2027-03-26,LOI,219,,1000000,500000,15%,75000,C,,,,"HIGHEST EXPECTED VALUE on the list. NJ-only pool, NGO-specific track, opioid focus matches directly. Ask well under the cap."
+11,Pathways to Recovery (general),NJ Dept. of Labor & Workforce Dev.,State / regional,2027-03-05,LOI,198,,1000000,500000,12%,60000,C,,,,"Same program, broader applicant pool than the NGO track."
+12,Champions in Action,Citizens Charitable Foundation,Private foundation,2026-09-30,Full,42,50000,50000,50000,12%,6000,C,,,,"Selects very few recipients per cycle, usually themed. Check this round's theme."
+13,Specific Population Community Grant,NJ Dept. of Health,State / regional,2027-05-18,LOI,272,,500000,250000,12%,30000,C,,,,Justice-involved qualifies as a specific population. Award size demands strong fiscal infrastructure.
+14,Job Opportunities for Building Success,NJ Dept. of Labor & Workforce Dev.,State / regional,2027-03-04,LOI,197,,1000000,500000,10%,50000,C,,,,"Reentry employment framing works, but competitors are established workforce development agencies."
+15,Second Chance Act - Family-Based SUD Treatment,"US DOJ, BJA",Federal,2026-09-24,Full,36,,1000000,500000,6%,30000,D,,,,"BEST MISSION FIT on the entire list. Barriers: national competition, 3x-budget award, and the 'treatment provider' question (org refers out to IOP rather than treating directly). Pursue as partner/sub-awardee."
+16,Second Chance Act - Reentry Education & Employment,"US DOJ, BJA",Federal,2026-09-24,Full,36,,1000000,500000,5%,25000,D,,,,Federal reentry competitions draw established national providers with prior DOJ awards. Pursue as partner/sub-awardee.
+17,Project Grant,State Justice Institute,Federal,2026-11-01,Full,74,,300000,150000,5%,7500,D,,,,SJI funds court systems. Realistic path is as named program partner on a court-led application - the recovery court relationship could support that.
+18,"Family foundations (Scripps, Kim/Kayasa, Bernau, Scaife)",Various,Private foundation,,Rolling / 2027,,,,,10%,,D,,,,Priorities unpublished; many small family foundations are effectively invitation-only. Pull Form 990s before writing - 15 min each tells you whether they accept unsolicited requests at all.
+19,SNAP STEPS,NJ Dept. of Labor & Workforce Dev.,State / regional,2026-09-12,LOI,24,,500000,250000,,,E,,,,VERIFY FIRST: near-term LOI. Overlap with reentry population is real but the org would need a workforce services track record.
+20,Preventive Health Services Grant Program,NJ Dept. of Health,State / regional,2026-11-17,Full,90,,535000,267500,,,E,,,,VERIFY FIRST: confirm community nonprofits are eligible applicants rather than local health departments.
+21,Omnibus Eviction and Homelessness Prevention,NJ Dept. of Community Affairs,State / regional,2026-12-02,Full,105,,,,,,E,,,,VERIFY FIRST: housing stability is adjacent to reentry wraparound; founder's lived experience with homelessness is relevant framing. Second RFP 2026-12-09.
+22,Chronic Disease Prevention Grant,NJ Dept. of Health,State / regional,2026-12-23,LOI,126,,150000,75000,,,E,,,,VERIFY FIRST: often targeted at diabetes/cardiovascular - confirm behavioral health is in scope this cycle.
+
+,TOTAL PIPELINE,,,,,,,,3724000,,326475,<- risk-weighted
+
+,"Expected Value = Planning Amount x Est. Win %. The risk-weighted worth of pursuing an item, NOT a forecast of what you will receive."
+
+METHOD
+,"Judgment estimates, not measured win rates. No public dataset gives per-program win rates for an org of this profile."
+,"On the 10-15% figure: a fair average across all grantseeking, but applied uniformly it misdirects effort. Real odds here span ~50% down to low single digits, running close to INVERSE to award size."
+,Seven factors behind each estimate: eligibility certainty; geographic restriction (the biggest lever); award-to-budget ratio; competitive pool; track-record requirements; application burden; mission fit.
+,Federal cash-flow risk: most federal grants reimburse after spending. A $300k org winning $1M on cost-reimbursement must front payroll for months. Winning #15/#16 without a credit line could be worse than losing them.
+
+SEQUENCING
+,"Now-Sept: submit Tier A (#1-#4, days of work not weeks) + CFNJ Empower NJ (#7)."
+,"Fall: HFNJ (#6) by Nov 19, after resolving the affiliation question."
+,"Sept 24: pursue both Second Chance Act tracks as PARTNER or SUB-AWARDEE under a larger lead applicant, not solo. Same mission value, far better odds, no cash-flow exposure."
+,"Winter-2027: the LOI cycle (#10, #13, #14). With 2-3 wins to cite, these move up a tier."
+
+SCREENED OUT (~26 of ~80) - reasons so you can overrule any of them
+,"Research institution required: all NIH mechanisms (R61/R33, P50, P30, K12, R25, U01), CDC research cooperative agreements, PCORI, BJS CHRARP, NJ Brain Injury Research, DoD/Army TBI. Need a PI, academic home, IRB."
+,"State/government applicant only: 988 Administrator ($231M), Disaster Distress Helpline, Comprehensive Suicide Prevention for States, SSUS STD/HIV, LINCS, Cancer Control, Diabetes, Rural Health Transformation."
+,"National TTA contracts: Drug Court TTA ($6M), RSAT TTA, both CSBG programs (which route through designated Community Action Agencies)."
+,"Geography/topic mismatch: rural opioid programs (priority counties aren't rural), adult literacy, Affordable Housing Demonstration, Comer syringe services."
+,Not applicable: HFNJ Renewal Grants - existing grantees only.
+
+SOURCE
+,Instrumentl opportunity-match export supplied 2026-08-19. Deadlines/amounts as listed there; deadlines without a year read as 2026. An earlier web search recorded HFNJ as closing 2026-08-28 - the export shows 2026-11-19. VERIFY every deadline at the source before building an application plan around it.
