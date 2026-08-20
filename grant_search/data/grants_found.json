@@ -332,15 +332,48 @@
   ],
   "open_verification_flags": [
     {
-      "item": "BJA Second Chance Act tracks (tier_1, deadline 2026-09-24)",
-      "flag": "Two independent searches on 2026-08-20 failed to corroborate a 2026-09-24 deadline. Search surfaced only the FY25 cycle (closed 2026-05-11) and FY24. The 2026-09-24 date comes solely from the Instrumentl export supplied 2026-08-19.",
-      "assessment": "Not a contradiction - Instrumentl tracks live opportunities and archived agency pages dominate search results. But the date has no second source, and SAM.gov registration timing is being planned around it.",
-      "action": "Confirm directly at bja.ojp.gov or grants.gov before committing writing time or treating 2026-09-24 as the SAM.gov registration deadline."
-    },
-    {
       "item": "Federal reentry eligibility - operational history",
       "flag": "Search indicates nonprofit applicants for federal reentry funding are typically expected to demonstrate 2-3 years of operational experience in justice-related or workforce programming, and some programs require formal partnership with correctional, probation, or parole agencies.",
       "action": "Confirm the org meets the operational-history bar before investing in a solo federal application. The partnership requirement is already satisfied in substance by the court/IDRC relationships."
+    },
+    {
+      "item": "SAM.gov registration - RESOLVED",
+      "flag": "The org confirmed on 2026-08-20 that it holds active SAM.gov login and registration.",
+      "assessment": "This removes the blocker previously flagged against every federal opportunity, including both Second Chance Act tracks (2026-09-24). Federal applications are now reachable on their stated timelines.",
+      "remaining_check": "Confirm Grants.gov registration is also active and that an Authorized Organization Representative (AOR) is authorized - that is a separate step from SAM and can take days. Also confirm the SAM registration has not lapsed; it expires annually."
     }
-  ]
+  ],
+  "screening_reviews": {
+    "reviewed_on": "2026-08-20",
+    "why": "Three screened-out items were re-examined at the org's request after the earlier cuts were flagged as inference from titles rather than eligibility text.",
+    "results": [
+      {
+        "title": "Affordable Housing and Supportive Services Demonstration (362839)",
+        "funder": "US HHS, Administration for Children & Families (Office of Community Services)",
+        "amount": "$150,000 - $300,000",
+        "deadline": "2026-08-24",
+        "verdict": "CONFIRMED INELIGIBLE - cut stands",
+        "eligibility_found": "Eligible applicants are Community Action Agencies (CAAs) and tribes that were funded DIRECTLY by CSBG in FY2025 AND that OWN affordable housing units and provide support services to residents of those units.",
+        "assessment": "Clear Conscience Consulting is not a CSBG-funded Community Action Agency and does not own affordable housing. Two independent disqualifiers. This system's earlier flag calling the cut 'a probable miss' was wrong - the original screen was correct, though the stated reason ('housing-provider focus') understated it. Not a watch-list item for next year either, unless the org becomes a CAA."
+      },
+      {
+        "title": "Strengthening Services to Prevent the Infectious Disease Consequences of Drug Use",
+        "funder": "CDC",
+        "verdict": "CONFIRMED INELIGIBLE - cut stands, reason corrected",
+        "eligibility_found": "Closest match is CDC's Strengthening Syringe Services Programs cooperative agreement (CDC-RFA-PS22-2208). Prior awards went to RTI International and NASTAD - national intermediaries. Component 2 applicants must demonstrate the ability to AWARD funding to syringe services programs and collect performance data across them.",
+        "assessment": "This is a funder-of-funders role at national intermediary scale, plus a syringe-services focus the org does not operate. Correctly screened out, but it was filed under 'research institution required' - the accurate reason is national intermediary scale. Reason corrected in this record."
+      },
+      {
+        "title": "Improving Linkage to Care for People with Opioid Use Disorder (U01)",
+        "funder": "CDC",
+        "amount": "Up to $550,000",
+        "deadline": "2026-12-01",
+        "verdict": "UNDETERMINED - eligibility not established either way",
+        "eligibility_found": "Search could not surface the eligibility section for this specific NOFO. Context is mixed: CDC's OD2A linkage-to-care work runs through state and local health departments, and U01 is a research cooperative agreement mechanism - both point away from a small community nonprofit. But neither was confirmed for this opportunity.",
+        "assessment": "Should not have been filed confidently under 'research institution required'. Moved to undetermined pending direct verification. Deadline is 2026-12-01, so there is time to check.",
+        "action": "Look up the NOFO on grants.gov and read the Eligible Applicants section before deciding."
+      }
+    ],
+    "net_effect": "No items restored to the pipeline. Two cuts confirmed correct (one with a corrected reason); one moved from 'screened out' to 'undetermined, verify by December'."
+  }
 }
