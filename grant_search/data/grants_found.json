@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-08-20",
+  "last_run": "2026-08-21",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -26,7 +26,12 @@
       "summary": "Intersects three of the org's focus areas at once \u2014 SUD, family/community resilience, and justice involvement. Same deadline as the reentry education solicitation.",
       "watch_out": "Titled a 'Treatment Program'. The org delivers psychoeducation and wraparound support and connects clients to outpatient/IOP treatment rather than providing treatment directly. Confirm whether the NOFO requires the applicant to deliver clinical treatment itself, or accepts a treatment-partner structure.",
       "first_seen": "2026-08-19",
-      "status": "open"
+      "status": "open",
+      "opportunity_number": "O-BJA-2026-172700",
+      "posted": "2026-07-16",
+      "eligibility_confirmed": "State, local, and tribal governments apply under Category 1; NONPROFIT and faith-based organizations apply under Category 2. Confirmed 2026-08-21 - nonprofits have their own applicant lane.",
+      "program_scope_narrower_than_assumed": "Targets pregnant parents, or parents of minor children, who have a substance use disorder and are under correctional control - in community settings, jail, prison, or as an alternative to incarceration. This is a narrower population than \"family services\" generally. The org would need to show it serves justice-involved parents of minor children specifically.",
+      "deadline_status": "DISPUTED - see open_verification_flags"
     },
     {
       "title": "Empower New Jersey Grant",
@@ -327,6 +332,14 @@
     }
   ],
   "open_verification_flags": [
+    {
+      "item": "BJA Second Chance Act - 2026-09-24 deadline",
+      "severity": "ESCALATED - 34 days out, still unconfirmed after four searches across two days",
+      "what_is_now_confirmed": "The FY2026 cycle is REAL. Solicitation O-BJA-2026-172700 exists for the Family-Based SUD Treatment Program, posted 2026-07-16, with nonprofits eligible under Category 2. This corrects yesterday's finding that only FY25 surfaced.",
+      "what_is_still_unresolved": "The closing date. One search summary on 2026-08-21 asserted the submission period 'has ended'; another asserted FY26 solicitations may not be posted at all. Neither is reliable - both are search-engine inferences over archived pages, and they contradict each other as well as the export. The 2026-09-24 date still rests solely on the Instrumentl export supplied 2026-08-19.",
+      "why_it_matters": "This date anchors the fall plan. If it has passed, effort should redirect to CFNJ Empower NJ (2026-09-30) immediately. If it is live, 34 days is workable but tight for a federal application.",
+      "action_required_by_a_person": "This cannot be resolved from inside this sandbox - funder domains are blocked. A person should open bja.ojp.gov/funding/current or search grants.gov for O-BJA-2026-172700, or email OJP.ResponseCenter@usdoj.gov. Five minutes resolves it."
+    },
     {
       "item": "Federal reentry eligibility - operational history",
       "flag": "Search indicates nonprofit applicants for federal reentry funding are typically expected to demonstrate 2-3 years of operational experience in justice-related or workforce programming, and some programs require formal partnership with correctional, probation, or parole agencies.",
