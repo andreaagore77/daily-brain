@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-08-21",
+  "last_run": "2026-08-22",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -42,7 +42,9 @@
       "fit": "strong",
       "summary": "NJ-statewide, award size proportionate to a $300k-budget org (roughly 17-33% of annual budget), foundation rather than federal so the compliance lift is far lighter than the BJA solicitations. Best effort-to-probability ratio on this list.",
       "first_seen": "2026-08-19",
-      "status": "open"
+      "status": "open",
+      "watch_out": "SCOPE QUESTION raised 2026-08-22. CFNJ's general eligibility is confirmed favourable - any NJ-based 501(c)(3) is encouraged to apply. But search describes CFNJ's empowerment-themed funding as economic empowerment: economic stability, entrepreneurship, workforce development, financial literacy, and access to opportunity. If 'Empower New Jersey' is that program, it is an economic-mobility fund rather than a behavioral health one, and the 20% fit estimate is too high. The reentry-employment angle would be the only credible framing. VERIFY at cfnj.org/find-grants/ before drafting - this has been called the best effort-to-probability item on the list and that claim now rests on an unverified assumption about scope.",
+      "eligibility_confirmed": "Any 501(c)(3) nonprofit located in New Jersey may apply (CFNJ general guidance)."
     },
     {
       "title": "Champions in Action Grant",
@@ -350,6 +352,13 @@
       "flag": "The org confirmed on 2026-08-20 that it holds active SAM.gov login and registration.",
       "assessment": "This removes the blocker previously flagged against every federal opportunity, including both Second Chance Act tracks (2026-09-24). Federal applications are now reachable on their stated timelines.",
       "remaining_check": "Confirm Grants.gov registration is also active and that an Authorized Organization Representative (AOR) is authorized - that is a separate step from SAM and can take days. Also confirm the SAM registration has not lapsed; it expires annually."
+    },
+    {
+      "item": "Federal two-step deadlines - operational",
+      "finding": "OJP opportunities observed on 2026-08-22 carry paired deadlines: Grants.gov closes 2-3 days BEFORE JustGrants (e.g. Grants.gov 08/25 with JustGrants 08/27; 08/26 with 08/28). The FY25 Second Chance Act cycle showed the same pattern.",
+      "why_it_matters": "If the Second Chance Act tracks follow this pattern, a single stated deadline is misleading - the Grants.gov step, which must be completed first, closes several days earlier. Any plan built around one date risks missing the real first gate.",
+      "action": "When confirming the SCA deadline, capture BOTH dates, not one.",
+      "authoritative_source": "https://www.ojp.gov/funding/explore/current-funding-opportunities"
     }
   ],
   "screening_reviews": {
