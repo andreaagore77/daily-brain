@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-08-22",
+  "last_run": "2026-08-23",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -55,7 +55,12 @@
       "fit": "good",
       "summary": "Flat $50k award, corporate foundation. Typically themed by cause area each cycle \u2014 worth checking whether this round's theme covers behavioral health or reentry.",
       "first_seen": "2026-08-19",
-      "status": "open"
+      "status": "open",
+      "eligibility_confirmed": "Operating budget must be between $250,000 and $5,000,000. At $300,000 the org QUALIFIES - just above the floor. Must be an NJ-based nonprofit addressing a specific social concern. Confirmed 2026-08-23.",
+      "theme_2026": "'Uplifting Resilient Nonprofits' - organizations adapting and innovating to meet community needs. Broad and favourable; not restricted to a cause area, so the earlier worry that the theme might exclude behavioral health does not apply.",
+      "requirement_not_obvious": "Applicants must be able to host 1-2 VOLUNTEER PROJECTS for Citizens employees, including at least one SKILLS-BASED project. This is a real operational commitment, not a formality - the org needs a credible plan for what corporate volunteers would actually do. Given the client population's confidentiality needs, a skills-based project (finance, HR, tech, marketing support) is likelier to work than anything client-facing.",
+      "award_includes": "$50,000 plus volunteer engagement and promotional support.",
+      "fit_revised": "Raised from 12% to 18% on 2026-08-23: budget eligibility confirmed, theme confirmed broad, NJ focus confirmed. The volunteer requirement is the main remaining risk, and it is operational rather than eligibility."
     },
     {
       "title": "Standard Grants",
@@ -67,7 +72,9 @@
       "summary": "Greater Newark plus the Greater MetroWest footprint (Essex, Morris, Somerset, Union, parts of Sussex) \u2014 overlaps three of four priority counties. Reported recent emphasis on youth and behavioral health.",
       "watch_out": "Confirm whether an org with no Jewish Federation affiliation qualifies under the 'targeted vulnerable populations elsewhere in Essex, Morris, and Union' clause.",
       "first_seen": "2026-08-19",
-      "status": "open"
+      "status": "open",
+      "positive_signal": "Behavioral health constitutes the MAJORITY of HFNJ's non-hospital grantmaking, and it awarded roughly $2.2-2.3M to Newark hospitals and behavioral health in Q4 2025 alone. Confirmed 2026-08-23 - the programmatic fit is strong.",
+      "still_open": "No source explicitly states whether a non-Federation-affiliated org can apply under the greater Newark track. Framing suggests greater Newark is served broadly, but this remains the one open eligibility question. Ask HFNJ directly."
     }
   ],
   "tier_2_strong_fit_later_deadline": [

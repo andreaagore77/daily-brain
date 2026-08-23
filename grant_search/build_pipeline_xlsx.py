@@ -76,8 +76,12 @@ ROWS = [
      "State / regional", dt.date(2027, 3, 5), "LOI", None, 1000000, 0.12, "C",
      "Same program, broader applicant pool than the NGO track."),
     (12, "Champions in Action", "Citizens Charitable Foundation", "Private foundation",
-     dt.date(2026, 9, 30), "Full", 50000, 50000, 0.12, "C",
-     "Selects very few recipients per cycle, usually themed. Check this round's theme."),
+     dt.date(2026, 9, 30), "Full", 50000, 50000, 0.18, "B",
+     "UPGRADED 2026-08-23. Budget eligibility confirmed ($250k-$5M; the org qualifies). "
+     "2026 theme 'Uplifting Resilient Nonprofits' is broad and favourable. Award is $50k plus "
+     "volunteer engagement and promotion. CATCH: applicants must host 1-2 volunteer projects for "
+     "Citizens staff, at least one skills-based - needs a credible plan given client "
+     "confidentiality."),
     (13, "Specific Population Community Grant", "NJ Dept. of Health",
      "State / regional", dt.date(2027, 5, 18), "LOI", None, 500000, 0.12, "C",
      "Justice-involved qualifies as a specific population. Award size demands "
