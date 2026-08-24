@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-08-23",
+  "last_run": "2026-08-24",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -255,7 +255,17 @@
       "amount": "Up to $500,000",
       "deadline": "2026-09-12",
       "deadline_type": "LOI",
-      "note": "Near-term LOI. Employment/training for SNAP recipients; overlap with the reentry population is real but the org would need a workforce services track record."
+      "note": "Near-term LOI. Employment/training for SNAP recipients; overlap with the reentry population is real but the org would need a workforce services track record.",
+      "researched": "2026-08-24",
+      "programmatic_fit": "CONFIRMED GOOD. SNAP E&T is explicitly used nationally to support reentry - work experience, job training, and support services such as transportation and tools for people returning from incarceration. The justice-involved population is squarely in scope, and NJDOL is seeking statewide partnerships.",
+      "financing_model_warning": "CRITICAL, AND IT MAY BE DISQUALIFYING. The federal SNAP E&T third-party partner model is 50/50: the partner INVESTS ITS OWN NON-FEDERAL FUNDS to deliver services and is then reimbursed up to 50 cents per dollar spent. If NJ SNAP STEPS passes that structure through, this is not a grant that supplies operating money - it requires fronting 100% of costs and recovering half. For a $300k organization with no stated reserves, that is the opposite of what is needed, and a large commitment could be financially dangerous rather than helpful. CONFIRM the exact structure in the FY26 NGO before pursuing.",
+      "amount_discrepancy": "This record held \"up to $500,000\". Search indicates FY26 totals $6,000,000 with each grantee reimbursed up to $1,000,000. Verify in the NGO.",
+      "submission": "Letter of Intent is emailed to WFNJ@dol.nj.gov before the date in the NGO Schedule of Submission Dates.",
+      "source_documents": [
+        "https://nj.gov/labor/assets/PDFs/Grants/FY26/SNAP%20STEPS%20FY26%20NGO.pdf",
+        "https://www.nj.gov/labor/research-info/grants.shtml"
+      ],
+      "recommendation": "Read the FY26 NGO before anything else. If it carries the 50/50 non-federal investment requirement, this should move to screened-out on financial grounds despite the strong programmatic fit - and the same question should be asked of the other two NJDOL items (Pathways to Recovery, Job Opportunities for Building Success), which come from the same department and may share the structure."
     },
     {
       "title": "NJ Chronic Disease Prevention Grant",
