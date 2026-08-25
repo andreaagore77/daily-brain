@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-08-24",
+  "last_run": "2026-08-25",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -86,7 +86,11 @@
       "deadline": "2027-03-05",
       "deadline_type": "LOI",
       "fit": "strong",
-      "summary": "Services for NJ residents impacted by opioid use; nonprofits connected to MH/OUD treatment centers eligible, which the org's provider partnerships support. Round 2 NGO track has an LOI deadline of 2027-03-26."
+      "summary": "Services for NJ residents impacted by opioid use; nonprofits connected to MH/OUD treatment centers eligible, which the org's provider partnerships support. Round 2 NGO track has an LOI deadline of 2027-03-26.",
+      "eligibility_confirmed": "Nonprofits, for-profits, government entities, and higher ed in NJ WITH CONNECTIONS TO MENTAL HEALTH AND OPIOID USE DISORDER TREATMENT CENTERS. The org's provider partnerships satisfy this criterion directly. Confirmed 2026-08-25.",
+      "program_detail": "$5M total; up to $1M per grantee over a 24-month period. Provides training, career services, employment, and supportive services (transportation, childcare, clothing) to residents impacted by opioid use. Statewide since 2024.",
+      "cash_flow_warning": "Cost-reimbursement - see njdol_structural_finding.",
+      "competitive_context": "Integrity House, a large established NJ nonprofit, was announced on 2026-07-31 as a $1M Pathways awardee. That indicates both the calibre of competitor and that the current cycle is already awarded - consistent with the 2027 LOI dates referring to the next round."
     },
     {
       "title": "Pathways to Recovery - Round 2 NGO",
@@ -96,7 +100,11 @@
       "deadline": "2027-03-26",
       "deadline_type": "LOI",
       "fit": "strong",
-      "summary": "NGO-specific track of the above \u2014 likely the more appropriate door for this org than the general round."
+      "summary": "NGO-specific track of the above \u2014 likely the more appropriate door for this org than the general round.",
+      "eligibility_confirmed": "Nonprofits, for-profits, government entities, and higher ed in NJ WITH CONNECTIONS TO MENTAL HEALTH AND OPIOID USE DISORDER TREATMENT CENTERS. The org's provider partnerships satisfy this criterion directly. Confirmed 2026-08-25.",
+      "program_detail": "$5M total; up to $1M per grantee over a 24-month period. Provides training, career services, employment, and supportive services (transportation, childcare, clothing) to residents impacted by opioid use. Statewide since 2024.",
+      "cash_flow_warning": "Cost-reimbursement - see njdol_structural_finding.",
+      "competitive_context": "Integrity House, a large established NJ nonprofit, was announced on 2026-07-31 as a $1M Pathways awardee. That indicates both the calibre of competitor and that the current cycle is already awarded - consistent with the 2027 LOI dates referring to the next round."
     },
     {
       "title": "General Operating and Project Grants",
@@ -411,5 +419,17 @@
     ],
     "net_effect": "No items restored to the pipeline. Two cuts confirmed correct (one with a corrected reason); one moved from 'screened out' to 'undetermined, verify by December'."
   },
-  "scoring_note": "Five foundation opportunities that had been described in prose but never scored were assigned estimates on 2026-08-20: J&J Neuroscience Local & Regional (12%), Citizens Workforce Development (12%), Get Out and Get Active (10%), JAMS/NAFCM (8%), Citizens Financial Empowerment (8%). All rank below the existing tier A and B items, which is why they had been left out of the ranking - but they belong in it. Spreadsheet rank is now computed from probability rather than hand-maintained, so adding a row or changing a score cannot desynchronise it again."
+  "scoring_note": "Five foundation opportunities that had been described in prose but never scored were assigned estimates on 2026-08-20: J&J Neuroscience Local & Regional (12%), Citizens Workforce Development (12%), Get Out and Get Active (10%), JAMS/NAFCM (8%), Citizens Financial Empowerment (8%). All rank below the existing tier A and B items, which is why they had been left out of the ranking - but they belong in it. Spreadsheet rank is now computed from probability rather than hand-maintained, so adding a row or changing a score cannot desynchronise it again.",
+  "njdol_structural_finding": {
+    "confirmed_2026_08_25": "ALL NJDOL grant funds are distributed on a COST-REIMBURSEMENT basis. Grantees are reimbursed only for actual expenditures already made, claimed through NJDOL's IGX online system. There is no indication of advance payment.",
+    "affects": [
+      "Pathways to Recovery (2027-03-05 LOI, up to $1M)",
+      "Pathways to Recovery - Round 2 NGO (2027-03-26 LOI, up to $1M)",
+      "Job Opportunities for Building Success (2027-03-04 LOI, up to $1M)",
+      "SNAP STEPS (2026-09-12 LOI)"
+    ],
+    "what_it_means": "A $300k organization awarded even a fraction of a $1M NJDOL grant must fund payroll and services from its own resources first and recover the money afterwards. This does not disqualify the org, but it makes working capital - a line of credit, reserves, or a bridge funder - a precondition for accepting an award of any size here, not an afterthought.",
+    "match_requirement_partially_confirmed": "Some NJDOL programs carry an explicit 50/50 match (NJDOL up to 50%, grantee minimum 50%), with employer-paid training wages counted toward the grantee share. That was observed on training-type grants. It is NOT established for Pathways to Recovery or SNAP STEPS - yesterday's concern came from the federal SNAP E&T third-party model, and today shows NJDOL does use 50/50 on some programs. Still needs the actual NGO to settle.",
+    "action": "Read the FY26 NGO PDFs; both are linked in the SNAP STEPS and Pathways records."
+  }
 }
