@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-08-25",
+  "last_run": "2026-08-31",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -14,7 +14,11 @@
       "summary": "Directly on mission: reentry services for justice-involved people, with education and employment outcomes. Nonprofit community-based organizations are eligible. The org's NJ recovery court, IDRC, and reentry partnerships are exactly the local infrastructure these solicitations expect applicants to have.",
       "watch_out": "Award size (up to $1M) is 3x the org's annual budget. Federal reviewers weigh organizational capacity heavily; a sub-award or partnership role with a larger lead applicant may score better than a solo bid.",
       "first_seen": "2026-08-19",
-      "status": "open"
+      "status": "open",
+      "deadline_confirmed": "RESOLVED 2026-08-31. 2026-09-24 is the GRANTS.GOV deadline; JustGrants closes 2026-10-01, a week later. Part of a $211M DOJ package announced 2026-08-24 covering five grants for reentry, substance use, crisis response and behavioral health, with deadlines spanning Sept 24 - Oct 2.",
+      "eligibility_ALERT": "MAY NO LONGER BE OPEN TO NONPROFITS. The FY26 announcement is described as being for STATE AND LOCAL GOVERNMENTS, with awards allocated by county type: up to $1.6M each for 24 urban counties, $1.3M each for 26 suburban counties, $1M each for 13 rural counties. That is a county-allocation structure, not an open nonprofit competition. The record previously said nonprofit community-based organizations were eligible - that came from the FY25 cycle and may not carry forward.",
+      "what_this_means": "If FY26 is government-only, Clear Conscience Consulting cannot be the applicant of record. The realistic route becomes subrecipient or named partner to an Essex, Bergen, Union or Somerset county application. That is no longer merely the better strategy - it may be the only one. Approaching a county now, three weeks before the Grants.gov date, is the actionable step.",
+      "fit_note": "Direct-applicant odds may be zero; partner odds are a different question."
     },
     {
       "title": "BJA FY2026 Second Chance Act: Family-Based Substance Use Disorder Treatment Program",
@@ -31,7 +35,8 @@
       "posted": "2026-07-16",
       "eligibility_confirmed": "State, local, and tribal governments apply under Category 1; NONPROFIT and faith-based organizations apply under Category 2. Confirmed 2026-08-21 - nonprofits have their own applicant lane.",
       "program_scope_narrower_than_assumed": "Targets pregnant parents, or parents of minor children, who have a substance use disorder and are under correctional control - in community settings, jail, prison, or as an alternative to incarceration. This is a narrower population than \"family services\" generally. The org would need to show it serves justice-involved parents of minor children specifically.",
-      "deadline_status": "DISPUTED - see open_verification_flags"
+      "deadline_status": "DISPUTED - see open_verification_flags",
+      "deadline_confirmed": "The paired-deadline pattern is confirmed for this DOJ package (Grants.gov then JustGrants a week later). Confirm both dates for this specific track - O-BJA-2026-172700 was posted 2026-07-16 and nonprofits have a Category 2 lane, so this track does appear open to the org even if the reentry-education track is not."
     },
     {
       "title": "Empower New Jersey Grant",
@@ -360,12 +365,10 @@
   ],
   "open_verification_flags": [
     {
-      "item": "BJA Second Chance Act - 2026-09-24 deadline",
-      "severity": "ESCALATED - 34 days out, still unconfirmed after four searches across two days",
-      "what_is_now_confirmed": "The FY2026 cycle is REAL. Solicitation O-BJA-2026-172700 exists for the Family-Based SUD Treatment Program, posted 2026-07-16, with nonprofits eligible under Category 2. This corrects yesterday's finding that only FY25 surfaced.",
-      "what_is_still_unresolved": "The closing date. One search summary on 2026-08-21 asserted the submission period 'has ended'; another asserted FY26 solicitations may not be posted at all. Neither is reliable - both are search-engine inferences over archived pages, and they contradict each other as well as the export. The 2026-09-24 date still rests solely on the Instrumentl export supplied 2026-08-19.",
-      "why_it_matters": "This date anchors the fall plan. If it has passed, effort should redirect to CFNJ Empower NJ (2026-09-30) immediately. If it is live, 34 days is workable but tight for a federal application.",
-      "action_required_by_a_person": "This cannot be resolved from inside this sandbox - funder domains are blocked. A person should open bja.ojp.gov/funding/current or search grants.gov for O-BJA-2026-172700, or email OJP.ResponseCenter@usdoj.gov. Five minutes resolves it."
+      "item": "Second Chance Act deadline - RESOLVED, new eligibility question opened",
+      "resolved": "The 2026-09-24 date is real and is the Grants.gov deadline; JustGrants closes 2026-10-01. Eight searches over two weeks could not establish this; it surfaced via a DOJ announcement of 2026-08-24. The Instrumentl export was correct all along.",
+      "new_question": "The FY26 Improving Reentry Education and Employment Outcomes track is described as being for state and local governments, with per-county award tiers. If accurate, the org is not an eligible direct applicant on that track, though the Family-Based track retains a nonprofit Category 2.",
+      "action": "Confirm at bja.ojp.gov/funding/current. If government-only, pivot immediately to approaching a priority-county government as a named partner - 24 days to the Grants.gov date."
     },
     {
       "item": "Federal reentry eligibility - operational history",
