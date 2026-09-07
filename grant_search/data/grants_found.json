@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-08-31",
+  "last_run": "2026-09-07",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -64,8 +64,9 @@
       "eligibility_confirmed": "Operating budget must be between $250,000 and $5,000,000. At $300,000 the org QUALIFIES - just above the floor. Must be an NJ-based nonprofit addressing a specific social concern. Confirmed 2026-08-23.",
       "theme_2026": "'Uplifting Resilient Nonprofits' - organizations adapting and innovating to meet community needs. Broad and favourable; not restricted to a cause area, so the earlier worry that the theme might exclude behavioral health does not apply.",
       "requirement_not_obvious": "Applicants must be able to host 1-2 VOLUNTEER PROJECTS for Citizens employees, including at least one SKILLS-BASED project. This is a real operational commitment, not a formality - the org needs a credible plan for what corporate volunteers would actually do. Given the client population's confidentiality needs, a skills-based project (finance, HR, tech, marketing support) is likelier to work than anything client-facing.",
-      "award_includes": "$50,000 plus volunteer engagement and promotional support.",
-      "fit_revised": "Raised from 12% to 18% on 2026-08-23: budget eligibility confirmed, theme confirmed broad, NJ focus confirmed. The volunteer requirement is the main remaining risk, and it is operational rather than eligibility."
+      "award_includes": "$50,000 in UNRESTRICTED funding, plus local promotion, publicity, and volunteer support. Confirmed 2026-09-07. Unrestricted matters disproportionately at this budget size - it funds the infrastructure that restricted project grants never cover, and only two items in the whole pipeline offer it (this and Partners For Health).",
+      "fit_revised": "Raised from 12% to 18% on 2026-08-23: budget eligibility confirmed, theme confirmed broad, NJ focus confirmed. The volunteer requirement is the main remaining risk, and it is operational rather than eligibility.",
+      "status_2026_09_07": "Now the most realistically winnable near-term item. Eligibility is confirmed, the theme is broad, the award is unrestricted, and a foundation-scale application is achievable in the 23 days remaining - unlike the federal tracks."
     },
     {
       "title": "Standard Grants",
@@ -434,5 +435,20 @@
     "what_it_means": "A $300k organization awarded even a fraction of a $1M NJDOL grant must fund payroll and services from its own resources first and recover the money afterwards. This does not disqualify the org, but it makes working capital - a line of credit, reserves, or a bridge funder - a precondition for accepting an award of any size here, not an afterthought.",
     "match_requirement_partially_confirmed": "Some NJDOL programs carry an explicit 50/50 match (NJDOL up to 50%, grantee minimum 50%), with employer-paid training wages counted toward the grantee share. That was observed on training-type grants. It is NOT established for Pathways to Recovery or SNAP STEPS - yesterday's concern came from the federal SNAP E&T third-party model, and today shows NJDOL does use 50/50 on some programs. Still needs the actual NGO to settle.",
     "action": "Read the FY26 NGO PDFs; both are linked in the SNAP STEPS and Pathways records."
+  },
+  "triage_2026_09_07": {
+    "assessment": "With deadlines now inside 23 days and nothing approved, not all near-term items remain achievable.",
+    "still_comfortably_achievable": [
+      "Champions in Action (2026-09-30) - foundation-scale, eligibility confirmed, unrestricted $50k, 23 days is enough"
+    ],
+    "achievable_if_started_immediately": [
+      "Empower New Jersey (2026-09-30) - same window, but the economic-empowerment scope question is still unverified, so the first step is a five-minute check, not drafting",
+      "SNAP STEPS (2026-09-12) - only an LOI, which is genuinely lightweight, but 5 days and the reimbursement structure is still unread. Cheapest possible shot if anyone wants it."
+    ],
+    "realistically_closed_this_cycle": [
+      "Second Chance Act Family-Based (2026-09-24) - nonprofits are eligible, but a full federal application in 17 days with no org-kit content filled and no prior federal award is not a credible submission",
+      "Second Chance Act Reentry Education (2026-09-24) - likely government-only; the county-partner window is effectively closed since counties finalise their own submissions well before the date"
+    ],
+    "note": "Nothing here is a decision. It is what the calendar now permits."
   }
 }
