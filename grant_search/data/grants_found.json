@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-09-07",
+  "last_run": "2026-09-14",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -264,24 +264,6 @@
       "note": "Housing stability is adjacent to reentry wraparound, and the founder's lived experience with homelessness is relevant framing. A second OEHP RFP shows 2026-12-09."
     },
     {
-      "title": "SNAP Skills, Training, Employment, Program To Success (STEPS)",
-      "funder": "NJ Department of Labor and Workforce Development",
-      "amount": "Up to $500,000",
-      "deadline": "2026-09-12",
-      "deadline_type": "LOI",
-      "note": "Near-term LOI. Employment/training for SNAP recipients; overlap with the reentry population is real but the org would need a workforce services track record.",
-      "researched": "2026-08-24",
-      "programmatic_fit": "CONFIRMED GOOD. SNAP E&T is explicitly used nationally to support reentry - work experience, job training, and support services such as transportation and tools for people returning from incarceration. The justice-involved population is squarely in scope, and NJDOL is seeking statewide partnerships.",
-      "financing_model_warning": "CRITICAL, AND IT MAY BE DISQUALIFYING. The federal SNAP E&T third-party partner model is 50/50: the partner INVESTS ITS OWN NON-FEDERAL FUNDS to deliver services and is then reimbursed up to 50 cents per dollar spent. If NJ SNAP STEPS passes that structure through, this is not a grant that supplies operating money - it requires fronting 100% of costs and recovering half. For a $300k organization with no stated reserves, that is the opposite of what is needed, and a large commitment could be financially dangerous rather than helpful. CONFIRM the exact structure in the FY26 NGO before pursuing.",
-      "amount_discrepancy": "This record held \"up to $500,000\". Search indicates FY26 totals $6,000,000 with each grantee reimbursed up to $1,000,000. Verify in the NGO.",
-      "submission": "Letter of Intent is emailed to WFNJ@dol.nj.gov before the date in the NGO Schedule of Submission Dates.",
-      "source_documents": [
-        "https://nj.gov/labor/assets/PDFs/Grants/FY26/SNAP%20STEPS%20FY26%20NGO.pdf",
-        "https://www.nj.gov/labor/research-info/grants.shtml"
-      ],
-      "recommendation": "Read the FY26 NGO before anything else. If it carries the 50/50 non-federal investment requirement, this should move to screened-out on financial grounds despite the strong programmatic fit - and the same question should be asked of the other two NJDOL items (Pathways to Recovery, Job Opportunities for Building Success), which come from the same department and may share the structure."
-    },
-    {
       "title": "NJ Chronic Disease Prevention Grant",
       "funder": "NJ Department of Health",
       "amount": "Up to $150,000",
@@ -450,5 +432,34 @@
       "Second Chance Act Reentry Education (2026-09-24) - likely government-only; the county-partner window is effectively closed since counties finalise their own submissions well before the date"
     ],
     "note": "Nothing here is a decision. It is what the calendar now permits."
+  },
+  "expired": [
+    {
+      "title": "SNAP Skills, Training, Employment, Program To Success (STEPS)",
+      "funder": "NJ Department of Labor and Workforce Development",
+      "amount": "Up to $500,000",
+      "deadline": "2026-09-12",
+      "deadline_type": "LOI",
+      "note": "Near-term LOI. Employment/training for SNAP recipients; overlap with the reentry population is real but the org would need a workforce services track record.",
+      "researched": "2026-08-24",
+      "programmatic_fit": "CONFIRMED GOOD. SNAP E&T is explicitly used nationally to support reentry - work experience, job training, and support services such as transportation and tools for people returning from incarceration. The justice-involved population is squarely in scope, and NJDOL is seeking statewide partnerships.",
+      "financing_model_warning": "CRITICAL, AND IT MAY BE DISQUALIFYING. The federal SNAP E&T third-party partner model is 50/50: the partner INVESTS ITS OWN NON-FEDERAL FUNDS to deliver services and is then reimbursed up to 50 cents per dollar spent. If NJ SNAP STEPS passes that structure through, this is not a grant that supplies operating money - it requires fronting 100% of costs and recovering half. For a $300k organization with no stated reserves, that is the opposite of what is needed, and a large commitment could be financially dangerous rather than helpful. CONFIRM the exact structure in the FY26 NGO before pursuing.",
+      "amount_discrepancy": "This record held \"up to $500,000\". Search indicates FY26 totals $6,000,000 with each grantee reimbursed up to $1,000,000. Verify in the NGO.",
+      "submission": "Letter of Intent is emailed to WFNJ@dol.nj.gov before the date in the NGO Schedule of Submission Dates.",
+      "source_documents": [
+        "https://nj.gov/labor/assets/PDFs/Grants/FY26/SNAP%20STEPS%20FY26%20NGO.pdf",
+        "https://www.nj.gov/labor/research-info/grants.shtml"
+      ],
+      "recommendation": "Read the FY26 NGO before anything else. If it carries the 50/50 non-federal investment requirement, this should move to screened-out on financial grounds despite the strong programmatic fit - and the same question should be asked of the other two NJDOL items (Pathways to Recovery, Job Opportunities for Building Success), which come from the same department and may share the structure.",
+      "status": "EXPIRED - LOI deadline 2026-09-12 passed unactioned",
+      "closed_on": "2026-09-14",
+      "retrospective": "Never determined whether the 50/50 non-federal investment requirement applied, because the FY26 NGO PDF was never opened - funder domains are unreachable from this sandbox. The LOI itself was lightweight, so this was the cheapest shot in the pipeline; it lapsed for want of a five-minute document check rather than for want of capacity. Contact for the next cycle: WFNJ@dol.nj.gov."
+    }
+  ],
+  "status_2026_09_14": {
+    "first_deadline_lapsed": "SNAP STEPS LOI (2026-09-12) passed without action. First item in the pipeline to expire.",
+    "still_reachable": "Champions in Action (2026-09-30, 16 days) remains comfortably achievable and is the last near-term item of which that is true. Eligibility confirmed, theme confirmed, $50k unrestricted. Empower New Jersey shares the date but still needs its scope verified before drafting would be sensible.",
+    "closing": "Both Second Chance Act tracks at 10 days are past the point of a credible federal submission from a standing start, as recorded on 2026-09-07.",
+    "after_september": "The calendar then empties until 2026-11-01. Nothing is approved and no application folder exists."
   }
 }
