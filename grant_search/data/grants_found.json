@@ -1,43 +1,9 @@
 {
   "schema_version": 2,
-  "last_run": "2026-09-28",
+  "last_run": "2026-10-05",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
-    {
-      "title": "Empower New Jersey Grant",
-      "funder": "Community Foundation of New Jersey",
-      "grant_type": "private_foundation",
-      "amount": "$50,000 - $100,000",
-      "deadline": "2026-09-30",
-      "fit": "strong",
-      "summary": "NJ-statewide, award size proportionate to a $300k-budget org (roughly 17-33% of annual budget), foundation rather than federal so the compliance lift is far lighter than the BJA solicitations. Best effort-to-probability ratio on this list.",
-      "first_seen": "2026-08-19",
-      "status": "open",
-      "watch_out": "SCOPE QUESTION raised 2026-08-22. CFNJ's general eligibility is confirmed favourable - any NJ-based 501(c)(3) is encouraged to apply. But search describes CFNJ's empowerment-themed funding as economic empowerment: economic stability, entrepreneurship, workforce development, financial literacy, and access to opportunity. If 'Empower New Jersey' is that program, it is an economic-mobility fund rather than a behavioral health one, and the 20% fit estimate is too high. The reentry-employment angle would be the only credible framing. VERIFY at cfnj.org/find-grants/ before drafting - this has been called the best effort-to-probability item on the list and that claim now rests on an unverified assumption about scope.",
-      "eligibility_confirmed": "Any 501(c)(3) nonprofit located in New Jersey may apply (CFNJ general guidance)."
-    },
-    {
-      "title": "Champions in Action Grant",
-      "funder": "Citizens Charitable Foundation",
-      "grant_type": "private_foundation",
-      "amount": "$50,000",
-      "deadline": "2026-09-30",
-      "fit": "good",
-      "summary": "Flat $50k award, corporate foundation. Typically themed by cause area each cycle \u2014 worth checking whether this round's theme covers behavioral health or reentry.",
-      "first_seen": "2026-08-19",
-      "status": "open",
-      "eligibility_confirmed": "Operating budget must be between $250,000 and $5,000,000. At $300,000 the org QUALIFIES - just above the floor. Must be an NJ-based nonprofit addressing a specific social concern. Confirmed 2026-08-23.",
-      "theme_2026": "'Uplifting Resilient Nonprofits' - organizations adapting and innovating to meet community needs. Broad and favourable; not restricted to a cause area, so the earlier worry that the theme might exclude behavioral health does not apply.",
-      "requirement_not_obvious": "Applicants must be able to host 1-2 VOLUNTEER PROJECTS for Citizens employees, including at least one SKILLS-BASED project. This is a real operational commitment, not a formality - the org needs a credible plan for what corporate volunteers would actually do. Given the client population's confidentiality needs, a skills-based project (finance, HR, tech, marketing support) is likelier to work than anything client-facing.",
-      "award_includes": "$50,000 in UNRESTRICTED funding, plus local promotion, publicity, and volunteer support. Confirmed 2026-09-07. Unrestricted matters disproportionately at this budget size - it funds the infrastructure that restricted project grants never cover, and only two items in the whole pipeline offer it (this and Partners For Health).",
-      "fit_revised": "Raised from 12% to 18% on 2026-08-23: budget eligibility confirmed, theme confirmed broad, NJ focus confirmed. The volunteer requirement is the main remaining risk, and it is operational rather than eligibility.",
-      "status_2026_09_07": "Now the most realistically winnable near-term item. Eligibility is confirmed, the theme is broad, the award is unrestricted, and a foundation-scale application is achievable in the 23 days remaining - unlike the federal tracks.",
-      "deadline_status_DISPUTED": "2026-09-21: search indicates the 2026 Champions in Action cycle closed 2026-03-13, and that the 2026 theme was \"Building AI Readiness and Capacity in Nonprofits\" - NOT \"Uplifting Resilient Nonprofits\" as recorded on 2026-08-23. If that is right, this cycle has been closed since March and the 2026-09-30 date from the Instrumentl export is wrong.",
-      "correction_to_this_record": "The 2026-08-23 upgrade from 12% to 18% rested partly on a theme that now appears to belong to a different cycle. This system then described this grant as \"the best remaining target\" and \"the last comfortably reachable item\" for three consecutive weeks. That advice may have been pointing at a closed opportunity.",
-      "what_still_holds": "Budget band ($250k-$5M) and eligible locations including New Jersey are consistent across sources, as is the volunteer-hosting requirement and the $50,000 unrestricted award. The eligibility findings stand; the timing and theme do not.",
-      "action": "Check citizensbank.com/champions directly before investing any effort. Nine days is enough to apply but not enough to waste. Note that search has been wrong before on this pipeline - it gave a false HFNJ date in August and contradicted the Second Chance Act date eight times while the export was correct - so this needs the funder page, not another search."
-    },
     {
       "title": "Standard Grants",
       "funder": "The Healthcare Foundation of New Jersey",
@@ -464,6 +430,42 @@
       "closed_on": "2026-09-28",
       "note": "JustGrants closed 2026-10-01 but the Grants.gov step, which must come first, passed on the 24th. Recorded as closed for this cycle on 2026-09-07, three weeks ahead, on the grounds that a credible federal application was no longer possible from a standing start.",
       "next_cycle_prep": "The Family-Based track (O-BJA-2026-172700, nonprofit Category 2) remains the strongest mission fit found in this pipeline. Preparing for the FY27 cycle properly - org kit filled, outcome data assembled, a treatment partner or county relationship documented - would make it a genuinely competitive bid rather than a rushed one."
+    },
+    {
+      "title": "Empower New Jersey Grant",
+      "funder": "Community Foundation of New Jersey",
+      "grant_type": "private_foundation",
+      "amount": "$50,000 - $100,000",
+      "deadline": "2026-09-30",
+      "fit": "strong",
+      "summary": "NJ-statewide, award size proportionate to a $300k-budget org (roughly 17-33% of annual budget), foundation rather than federal so the compliance lift is far lighter than the BJA solicitations. Best effort-to-probability ratio on this list.",
+      "first_seen": "2026-08-19",
+      "status": "EXPIRED 2026-09-30",
+      "watch_out": "SCOPE QUESTION raised 2026-08-22. CFNJ's general eligibility is confirmed favourable - any NJ-based 501(c)(3) is encouraged to apply. But search describes CFNJ's empowerment-themed funding as economic empowerment: economic stability, entrepreneurship, workforce development, financial literacy, and access to opportunity. If 'Empower New Jersey' is that program, it is an economic-mobility fund rather than a behavioral health one, and the 20% fit estimate is too high. The reentry-employment angle would be the only credible framing. VERIFY at cfnj.org/find-grants/ before drafting - this has been called the best effort-to-probability item on the list and that claim now rests on an unverified assumption about scope.",
+      "eligibility_confirmed": "Any 501(c)(3) nonprofit located in New Jersey may apply (CFNJ general guidance).",
+      "closed_on": "2026-10-05"
+    },
+    {
+      "title": "Champions in Action Grant",
+      "funder": "Citizens Charitable Foundation",
+      "grant_type": "private_foundation",
+      "amount": "$50,000",
+      "deadline": "2026-09-30",
+      "fit": "good",
+      "summary": "Flat $50k award, corporate foundation. Typically themed by cause area each cycle \u2014 worth checking whether this round's theme covers behavioral health or reentry.",
+      "first_seen": "2026-08-19",
+      "status": "EXPIRED 2026-09-30",
+      "eligibility_confirmed": "Operating budget must be between $250,000 and $5,000,000. At $300,000 the org QUALIFIES - just above the floor. Must be an NJ-based nonprofit addressing a specific social concern. Confirmed 2026-08-23.",
+      "theme_2026": "'Uplifting Resilient Nonprofits' - organizations adapting and innovating to meet community needs. Broad and favourable; not restricted to a cause area, so the earlier worry that the theme might exclude behavioral health does not apply.",
+      "requirement_not_obvious": "Applicants must be able to host 1-2 VOLUNTEER PROJECTS for Citizens employees, including at least one SKILLS-BASED project. This is a real operational commitment, not a formality - the org needs a credible plan for what corporate volunteers would actually do. Given the client population's confidentiality needs, a skills-based project (finance, HR, tech, marketing support) is likelier to work than anything client-facing.",
+      "award_includes": "$50,000 in UNRESTRICTED funding, plus local promotion, publicity, and volunteer support. Confirmed 2026-09-07. Unrestricted matters disproportionately at this budget size - it funds the infrastructure that restricted project grants never cover, and only two items in the whole pipeline offer it (this and Partners For Health).",
+      "fit_revised": "Raised from 12% to 18% on 2026-08-23: budget eligibility confirmed, theme confirmed broad, NJ focus confirmed. The volunteer requirement is the main remaining risk, and it is operational rather than eligibility.",
+      "status_2026_09_07": "Now the most realistically winnable near-term item. Eligibility is confirmed, the theme is broad, the award is unrestricted, and a foundation-scale application is achievable in the 23 days remaining - unlike the federal tracks.",
+      "deadline_status_DISPUTED": "2026-09-21: search indicates the 2026 Champions in Action cycle closed 2026-03-13, and that the 2026 theme was \"Building AI Readiness and Capacity in Nonprofits\" - NOT \"Uplifting Resilient Nonprofits\" as recorded on 2026-08-23. If that is right, this cycle has been closed since March and the 2026-09-30 date from the Instrumentl export is wrong.",
+      "correction_to_this_record": "The 2026-08-23 upgrade from 12% to 18% rested partly on a theme that now appears to belong to a different cycle. This system then described this grant as \"the best remaining target\" and \"the last comfortably reachable item\" for three consecutive weeks. That advice may have been pointing at a closed opportunity.",
+      "what_still_holds": "Budget band ($250k-$5M) and eligible locations including New Jersey are consistent across sources, as is the volunteer-hosting requirement and the $50,000 unrestricted award. The eligibility findings stand; the timing and theme do not.",
+      "action": "Check citizensbank.com/champions directly before investing any effort. Nine days is enough to apply but not enough to waste. Note that search has been wrong before on this pipeline - it gave a false HFNJ date in August and contradicted the Second Chance Act date eight times while the export was correct - so this needs the funder page, not another search.",
+      "closed_on": "2026-10-05"
     }
   ],
   "status_2026_09_14": {
@@ -493,5 +495,25 @@
     ],
     "assessment": "Five near-term opportunities have passed or are passing without an application. None lapsed for lack of fit - the pipeline identified them correctly and established eligibility on most. They lapsed because no application was ever started and because the questions that would have settled them needed a funder page this sandbox cannot open.",
     "next_real_deadline": "HFNJ Standard Grants, 2026-11-19, 52 days out. Strongest remaining fit: behavioral health is the majority of that funder's non-hospital grantmaking and three of four priority counties are in footprint. One open question - whether a non-Federation-affiliated org qualifies under the greater Newark track."
-  }
+  },
+  "new_leads": [
+    {
+      "lead": "NJ opioid settlement funds, distributed at county and municipal level",
+      "found": "2026-10-05",
+      "why_it_matters": "A funding stream this pipeline had entirely missed. New Jersey's share of the national opioid settlements is distributed in part through counties and municipalities, which run their own grant programs. Jersey City publishes one at healthierjc.com/grants. Essex, Bergen, Union and Somerset are very likely to run equivalents.",
+      "why_it_fits": "Directly on mission - these funds are earmarked for prevention, treatment, recovery support and harm reduction for opioid-affected populations, which is the org's core work. Local programs mean small applicant pools, awards sized for community organizations, and county relationships the org already has through the courts and IDRC.",
+      "strategic_note": "This may be a better-matched stream than anything currently in the pipeline. County-level opioid settlement money is recurring, locally competitive rather than nationally, and administered by people who can be met in person.",
+      "action": "Check each priority county's opioid settlement advisory council or health department for an open or forthcoming grant program. Start with Essex and Union.",
+      "sources": [
+        "https://www.healthierjc.com/grants/2026-opioid-grant-information",
+        "https://www.nj.gov/corrections/pages/grants.html"
+      ]
+    }
+  ],
+  "expired_unactioned_federal_october": [
+    {
+      "note": "Two further BJA FY26 tracks surfaced today that were never in the pipeline and have now passed: Public Safety and Mental Health Initiative (Grants.gov 2026-09-25, ~13 awards, pre-arrest through reentry) and Comprehensive Opioid, Stimulant and Substance Use Site-Based (2026-09-24). Crisis Response Training closes on Grants.gov today, 2026-10-05, so it is also out of reach. All three were part of the same DOJ package; the Instrumentl export carried only two of the five tracks.",
+      "lesson": "The export was not exhaustive. For the FY27 DOJ cycle, check the full BJA solicitation list directly rather than relying on a matching service to surface every track."
+    }
+  ]
 }
