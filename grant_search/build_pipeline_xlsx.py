@@ -110,6 +110,22 @@ ROWS = [
      "invitation-only. Pull Form 990s before writing - 15 min each tells you "
      "whether they accept unsolicited requests at all."),
 
+    (0, "Opioid Settlement micro-grants", "Somerset County Human Services",
+     "State / regional", None, "Next cycle ~early 2027", 5000, 15000, 0.40, "A",
+     "STRONGEST STRUCTURAL FIT FOUND. 501(c)(3)-only, one-county applicant pool, award sized to the "
+     "org, application is a statement of interest plus budget. Funded by the county's opioid "
+     "settlement share - at least $450k/year for 18 years, so a missed cycle is a delay not a loss. "
+     "Somerset is a priority county."),
+    (0, "Opioid Settlement Funds annual RFA", "Union County OBHSM",
+     "State / regional", None, "Next cycle ~early 2027", None, 50000, 0.30, "A",
+     "Union County holds ~$17.7M over 18 years (~$980k/yr) for recovery support, treatment, early "
+     "intervention and harm reduction. RFA 2026-059 closed 2026-03-18, so cycles run late winter. "
+     "Priority county; a durable relationship rather than a one-off."),
+    (0, "Opioid Settlement priorities", "Morris County Human Services",
+     "State / regional", None, "Confirm cycle", 5000, None, 0.20, "B",
+     "Minimum request $5,000. Morris is outside the four priority counties but inside HFNJ's Greater "
+     "MetroWest footprint, so already adjacent to the org's reach."),
+
     (0, "Therapeutic Giving: Neuroscience - Local & Regional",
      "Johnson & Johnson Innovative Medicine", "Private foundation",
      dt.date(2027, 5, 31), "Full", None, None, 0.12, "C",

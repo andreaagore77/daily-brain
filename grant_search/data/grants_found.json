@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_run": "2026-10-05",
+  "last_run": "2026-10-12",
   "source_note": "Entries below come from an Instrumentl opportunity-match export supplied by the org on 2026-08-19, which supersedes the earlier web-search results. Deadlines and amounts are as listed in that export. Where a deadline had no year, it was read as 2026 (today is 2026-08-19). Eligibility fit is this system's assessment, not the funder's \u2014 confirm against each NOFO before investing writing time.",
   "correction": "The 2026-08-19 web-search run recorded HFNJ Standard Grants as closing 2026-08-28. The export shows 2026-11-19. The Aug 28 date was an unverified search snippet and is wrong.",
   "tier_1_act_now": [
@@ -20,6 +20,41 @@
     }
   ],
   "tier_2_strong_fit_later_deadline": [
+    {
+      "title": "Opioid Settlement Fund micro-grants",
+      "funder": "Somerset County (Human Services)",
+      "grant_type": "state_regional",
+      "amount": "Roughly $5,000-$15,000 (\u2248$50k awarded across nonprofits in a recent round)",
+      "deadline": "next_cycle_expected_early_2027",
+      "fit": "strongest_structural_match_found",
+      "first_seen": "2026-10-12",
+      "summary": "A micro-grant program restricted to 501(c)(3) nonprofits, funded by Somerset County's opioid settlement share - at least $450,000 every year for 18 years. Application is a statement of interest, project objectives, a budget, and proof of tax-exempt status.",
+      "why_this_is_the_best_structural_fit_in_the_pipeline": "It inverts every problem that sank the September items. Applicant pool is one county, not a nation. Award size matches a $300k organization instead of tripling its budget. The application is pages, not a federal package. Eligibility is 501(c)(3) nonprofits - no category question, no government-only clause, no treatment-provider ambiguity. And it recurs annually for 18 years, so a missed cycle is a delay rather than a loss. Somerset is a priority county.",
+      "action": "Contact Somerset County Human Services for the next cycle's timing and guidelines."
+    },
+    {
+      "title": "Opioid Settlement Funds (OSF) - annual RFA",
+      "funder": "Union County (Office on Behavioral Health and Substance Misuse)",
+      "grant_type": "state_regional",
+      "amount": "Up to roughly $50,000 per agency on comparable rounds",
+      "deadline": "next_cycle_expected_early_2027",
+      "fit": "strong",
+      "first_seen": "2026-10-12",
+      "summary": "Union County holds roughly $17.7 million in opioid settlement funds over 18 years, administered by its Office on Behavioral Health and Substance Misuse with an Opioid Task Force recommending allocations. RFA 2026-059 sought recovery support, treatment, early intervention and harm reduction - and closed 2026-03-18, so cycles appear to run in late winter.",
+      "why_it_fits": "Recovery support and early intervention are the org's core work, Union is a priority county, and roughly $980,000 a year flowing locally for eighteen years makes this a durable relationship rather than a one-off application.",
+      "action": "Watch ucnj.org/dhs/obhsm/opioid-settlement-funds-osf/ and contact OBHSM before the next RFA."
+    },
+    {
+      "title": "Opioid Settlement Funds - CY2026 priorities (cycle timing to confirm)",
+      "funder": "Morris County (Human Services)",
+      "grant_type": "state_regional",
+      "amount": "Minimum request $5,000",
+      "deadline": "confirm_cycle",
+      "fit": "moderate",
+      "first_seen": "2026-10-12",
+      "summary": "Morris County publishes opioid settlement funding priorities with a $5,000 minimum request. Morris is outside the four priority counties but inside HFNJ's Greater MetroWest footprint, so it is already adjacent to the organization's stated reach.",
+      "action": "Check morriscountynj.gov human services RFA page for the current cycle."
+    },
     {
       "title": "Pathways to Recovery",
       "funder": "NJ Department of Labor and Workforce Development",
@@ -507,7 +542,11 @@
       "sources": [
         "https://www.healthierjc.com/grants/2026-opioid-grant-information",
         "https://www.nj.gov/corrections/pages/grants.html"
-      ]
+      ],
+      "status": "ADVANCED 2026-10-12 - three county programs identified and added to the pipeline",
+      "essex_note": "No Essex County program surfaced. The state separately allocated $10.5M over three years for housing and wraparound services for medically complex individuals in Essex, but that is state-administered. Check Essex County Health/Human Services directly.",
+      "jersey_city_note": "Jersey City runs a 2026 cycle but requires applicants to be members of the Partnership for a HealthierJC - a membership step, not a bar.",
+      "timing_insight": "Most county 2026 cycles have already closed (Union 2026-03-18). Cycles appear to run late winter to early spring, which means the next ones are genuinely ahead of the organization rather than behind it - unlike everything that expired in September. There is runway here."
     }
   ],
   "expired_unactioned_federal_october": [
