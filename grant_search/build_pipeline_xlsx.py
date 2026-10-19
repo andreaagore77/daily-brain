@@ -51,10 +51,17 @@ ROWS = [
      "per dollar than restricted money. Amount unpublished; confirm range. Verify "
      "the org sits inside its service footprint."),
     (6, "Standard Grants", "Healthcare Foundation of New Jersey", "Private foundation",
-     dt.date(2026, 11, 19), "Full", 35000, None, 0.25, "B",
-     "3 of 4 priority counties in footprint; reported behavioral health emphasis. "
-     "OPEN QUESTION: does a non-Federation-affiliated org qualify under the "
-     "'vulnerable populations elsewhere in Essex, Morris, Union' clause?"),
+     dt.date(2026, 11, 19), "Full", 35000, None, 0.30, "B",
+     "AFFILIATION QUESTION RESOLVED 2026-10-19: 2026 grantees are overwhelmingly secular community "
+     "nonprofits (Northwest Essex Community Healthcare Network $300k for behavioral health; "
+     "Postpartum Support International $102.5k; VNA of Central NJ $127.9k in Essex). The greater "
+     "Newark track is open to secular orgs. HFNJ awarded ~$5M over three quarters of 2026."),
+    (0, "Core Operating Support", "Healthcare Foundation of New Jersey", "Private foundation",
+     None, "Confirm cycle", 100000, 100000, 0.15, "C",
+     "$100,000 UNRESTRICTED - a third of the org's annual budget, no project restriction. Up to "
+     "$1.5M initiative; first 13 grantees got $100k each. Unrestricted money funds the "
+     "infrastructure every restricted grant assumes exists. OPEN: whether it is invitation-only "
+     "and whether another cycle is planned. Ask alongside the Standard Grant."),
     (7, "Empower New Jersey Grant", "Community Foundation of New Jersey",
      "Private foundation", dt.date(2026, 9, 30), "Full", 50000, 100000, 0.20, "B",
      "Best effort-to-return balance on the list. If only one thing gets written "
